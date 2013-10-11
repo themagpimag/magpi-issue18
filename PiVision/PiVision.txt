@@ -1,0 +1,93 @@
+﻿1 of 3 pages
+
+Pi Vision
+A User Interface for your Raspberry Pi Camera
+
+Pi Vision is a Graphical User Interface for the recently introduced Raspberry Pi Camera. It allows you to control the camera functions through the camera's native camera apps. It also displays the terminal commands sent. The project was developed using Lazarus FPC (Pascal) and has been released as open source. Hence, Pi Vision makes it easy to control the camera and be instructional as well. 
+
+A Building Block
+
+Personally, if I had to name one of the most interesting and inspiring gadgets to come out in recent years it would probably be the little Raspberry Pi. Its low cost, small foot print and the fact that it runs on Linux makes it an obvious choice, a winning combination, for all sorts of projects. A building block that sparks the imagination to do just about anything. 
+
+But lets be clear here. The real attribute, the idea that makes the Raspberry so unique is that it was designed and introduced as an educational tool. Something to familiarize ourselves with actual computing. Not just at a user level but at programming and integration level as well. The recently introduced Raspberry camera aligns itself with that same idea. 
+
+Sure, you probably have an iPad, a smart phone or something of the sort. And, you work and/or play on a Windows, Mac and maybe even a Linux machine. But the Raspberry, in all its minimalism, maximizes on the means to allow people to getting started with actual computing and Linux. So much so that Raspberry is becoming a form of expression. A means of allowing so many of us to transform our imagination into a more tangible and functional form. 
+
+A Native Camera
+
+Like any camera the Raspberry Pi camera has a wide spectrum of uses. It also allows many parameters to be set. But it is important to mention that the Raspberry Pi camera is not like your contemporary webcam. 
+
+What’s the difference? Well, like the Raspberry, it is an educational tool. The idea is to get started with the workings and functions of an on board digital camera. It is an entry point. What's more, it actually makes really good pictures.
+
+One of the most apparent differences is that the camera does not seem to infinitely stream its video like a common webcam. There is no Video On or OFF setting. Instead, you need to set a duration time. Only during that time will the camera stream its video. In addition, the camera is operated through terminal commands. You send commands to control it via the command prompt.
+
+Why is that important? It provides an understanding on how a camera works and controlled. And, it allows you to configure commands in most any combination you want. It also invites you to take the next step and create your own interface for it.
+
+Capturing the Interest
+
+Most young kids, like my kids, love playing video games. Games typically form first interaction with computers. But many will reach a point where they don't just want to “play” games. They also want to “make” them as well. At the very least understand a bit more about what goes on beneath the keyboard and behind the screen. 
+
+But finding an entry point, something to get started with basic computing is easier said than done. 
+
+Fortunately, the Raspberry's camera is proving to be that "entry point". It not only captures the interests but also seems to be maintaining it. My kids, can now type in actual commands that can be executed, to do something simple but rewarding; visual feedback. This is the trick part here. Namely, taking a picture of themselves. Usually acting pretty silly. It is enough for them to type in another command and make another picture. :)      
+
+Pi Vision
+
+Where does Pi Vision fit into all this? Pi Vision is a simple, open source app which attempts to leverage the entry point. The incentive of Pi Vision is to allow for easy use of the Raspberry Pi camera while also serving as an instructional tool. 
+
+Employed commands are relayed to the user. Basically, you see what commands are sent to the Raspberry to control and operate the camera. This assists novice users in understanding the command structure. What's more, since Pi Vision is open source you can review and copy the code, make changes to suit your needs and interests. 
+
+In the subsequent section of this article you will find a few more details about the Pi Vision open source project. For now, assuming that you already have your Raspberry Pi camera setup and running, you can download (see the links section) Pi Vision and start using it directly on your Raspberry Pi.
+
+Pi Vision runs on the Rasbian OS. Start the Raspberry’s LXDE and create a new directory. Download and unpack the contents of Pi Vision. Place this in the newly created directory.
+
+Important! In order to run the Pi Vision app you need to first set permissions. Right-click the Pi Vision app. It is called rpiCC. Select Properties and from the Properties menu select the Permissions tab. There is a small check-box which needs to be checked called “Make this file executable”. 
+
+Click on the Pi Vision app to run. The start-up page of Pi Vision includes a button called “Test Camera Preview”. This will start a 5 second 640 x 480 (VGA) camera preview in the upper left corner of your screen. Assuming that your camera is set up correctly and the preview is successful then you are now ready to start using your camera with Pi Vision. 
+
+You will notice that Pi Vision will display the commands sent in a text area in the upper region of the app. Go ahead an experiment with different settings in the Photo, Video and Setting sections to see the results. Later you can try sending the command instructions yourself. To do this take a picture and then copy the commands in the text area. Open a terminal by selecting the terminal button at the lower right region of the app. Write these commands at the prompt and press enter.  
+
+Open Source
+
+The script/language of choice for the Raspberry Pi is Python. And, with good reason. Python offers simplicity, it’s easy to understand and very easy to use. It subscribes to the novice developer, in particular, very well. 
+
+Other ways to create programs/applications are also available. But when it comes to Rapid Application Development you will need something more advanced. To me the choice was Pascal. More specially, the Free Pascal Compiler (FPC) and using the Lazarus IDE.
+
+The Lazarus IDE is an open source development environment to write applications using the Pascal language. It is very powerful and includes just about everything to make really great apps very easily and with minimal effort.  
+
+Pascal is not the best language. There is no such thing as best. The question is actually; what does it take to get the job done. And, how to do it in a good, easy and effective way. 
+
+Pascal is a strongly typed language and offers important structure to write code in a very "computer correct" way. It is also accessible and intuitive. In addition, the Lazarus IDE and the FPC run on most systems; Windows, OSX, Linux and of course Raspbian. That means you can write code and develop applications for the Raspberry using a powerful IDE which compiles to most all platforms.
+
+Not surprisingly, Pi Vision was written in Pascal using the Lazarus IDE. In fact the Lazarus IDE is part of the Raspbian OS repository. You can download and install it directly. But should you choose to do so it is important that your SD card has enough space. Type in the following commands in a terminal: 
+
+$ sudo raspi-config
+
+This will bring up the start menu. Select the “Expand root partition” to fill SD card in the start menu. This will ensure that your card is maximized. After that select finish and reboot. Make sure that you have the latest updates for Raspbian. You can now install Lazarus by typing:
+
+$ sudo apt-get install fpc
+
+Then:
+
+$ sudo apt-get install lazarus
+
+This can take some time to download and install. After it has completed you will find Lazarus in the ¨Programming¨ menu section of your LXDE start menu.
+
+The Pi Vision project itself can be downloaded and then opened and built using Lazarus. Pi Vision is hosted on Github. Simply download the entire project, unpack it and open it using Lazarus. Full instructions can be found in the package as well. It should be of interest to note that since you can also install Lazarus on many other operating systems such as Windows or Mac you can open the Pi Vision project and run it on those systems as well. Obviously this would be only for review. 
+
+Links
+
+Pi Vision
+http://heywhatsthebigidea.net/projects/pi-vision-a-raspberry-pi-camera-controller/
+
+Pi Vision Project Github Repository
+https://github.com/local-vision/Pi-Vision
+
+Lazarus Free Pascal Compiler
+http://www.lazarus.freepascal.org/
+
+
+
+Pictures (see img folder)
+
+END.
