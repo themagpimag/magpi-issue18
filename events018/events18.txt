@@ -1,0 +1,49 @@
+CAS Somerset Teachers Hub meeting November 2013
+Computing At School
+Wednesday, November 6, 2013 from 4:30 PM to 6:30 PM (GMT)
+Street, United Kingdom
+http://cassomerset-es2.eventbrite.co.uk/
+
+Dubai Tech Fest 2013
+Lisa Finch (DESC)
+Friday, November 8, 2013 from 11:00 AM to 4:00 PM (PST)
+Dubai, United Arab Emirates
+6,7,8 Nov 2013 at Dubai English Speaking College. 
+ 3 day festival of technology - CPD, speakers, presentations, cyber safety, coding workshops and Scratch.
+
+DigiMakers- (Raspberry Pi Bootcamp) Nov 16th 2013
+caroline.higgins@bristol.ac.uk
+Saturday, November 16, 2013 from 9:30 AM to 4:00 PM (GMT)
+Bristol, United Kingdom
+https://www.eventbrite.com/event/8385319717
+
+Manchester Raspberry Jam XVI (Birthday Jam)
+McrRaspJam
+Saturday, 16 November 2013 from 10:00 to 17:00
+Manchester, United Kingdom
+http://mcrraspjam16-es2.eventbrite.co.uk/
+
+Raspberry Jam
+Entrepreneurs Unite: Portsmouth
+Saturday, 23 November 2013 from 10:00 to 14:00 (GMT)
+Portsmouth, United Kingdom
+http://gewports-raspberry-jam-es2.eventbrite.co.uk/
+
+Descrizione del corso
+Dopo il web 2.0 e l’invasione delle App, è il momento di Internet delle Cose: gli oggetti si connettono in Rete e scambiano dati autonomamente. Nuove interazioni sono possibili.
+
+I computer sono sempre più piccoli tanto che potremmo nasconderli dentro ad una scarpa.
+Il Raspberry PI, una scheda nata pochi anni fa in Inghilterra, permette di collegare qualsiasi cosa ad Internet. Il Raspberry è un computer piccolo ed economico nato per insegnare ai ragazzi a programmare, ma ben presto diventato uno degli strumenti prediletti dai Maker di tutto il mondo.
+Esploriamolo insieme, muovendo i primi passi con linux, python, Internet e l’elettronica.
+Argomenti del workshop
+
+cos’è il Raspberry: come nasce e perché.
+descrizione dell’hardware
+installazione e configurazione del sistema operativo
+linux comandi per sopravvivere
+l’ambiente grafico
+le porte GPIO: accendere un LED e leggere un pulsante
+introduzione a Python
+GPIO e Python
+Python e Internet: il primo passo per l’Internet delle Cose
+
