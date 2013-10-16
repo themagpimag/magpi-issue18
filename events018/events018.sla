@@ -96,7 +96,7 @@
             <para PARENT="Body  Headings"/>
             <para PARENT="Body Text Cent"/>
             <ITEXT CH="When:  "/>
-            <ITEXT FCOLOR="Raspberry Red" FSHADE="100" CH="Saturday 16th November 2013, 09.30am until 4.00pm"/>
+            <ITEXT FCOLOR="Raspberry Red" FSHADE="100" CH="Saturday 16th November 2013, 9.30am until 4.00pm"/>
             <para PARENT="Body Text Cent"/>
             <ITEXT CH="Where:  "/>
             <ITEXT FCOLOR="Raspberry Red" FSHADE="100" CH="At-Bristol Science Centre, Anchor Road, Harbourside, Bristol, BS1 5DB, UK"/>
@@ -165,8 +165,8 @@
             <para PARENT="Body  Headings"/>
             <para PARENT="Body  Headings"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="12" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" CH="When: "/>
-            <ITEXT FONT="FreeSans Regular" FONTSIZE="12" FCOLOR="Raspberry Red" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" CH="Wednesday 6th November 2013, 4.15p until 6,30"/>
-            <ITEXT FONTSIZE="12" CH="pm"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="12" FCOLOR="Raspberry Red" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" CH="Wednesday 6th November 2013, 4.15pm until 6.30"/>
+            <ITEXT FONTSIZE="12" FCOLOR="Raspberry Red" FSHADE="100" CH="pm"/>
             <para PARENT="Body Text Cent"/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="12" FCOLOR="Black" FSHADE="100" SCOLOR="Black" SSHADE="100" TXTSHX="5" TXTSHY="-5" TXTOUT="1" TXTULP="-0.1" TXTULW="-0.1" TXTSTP="-0.1" TXTSTW="-0.1" SCALEH="100" SCALEV="100" BASEO="0" KERN="0" CH="Where: "/>
             <ITEXT FONT="FreeSans Regular" FONTSIZE="12" FCOLOR="Raspberry Red" FSHADE="100" CH="Millfield School, Room IT6, Butleigh Road, Street, Somerset, BA16 0YD, UK"/>
@@ -190,9 +190,11 @@
             <ITEXT FCOLOR="Raspberry Red" FSHADE="100" CH=" Raspberry Pi"/>
             <para PARENT="Body  Headings"/>
             <para PARENT="Body Text Cent"/>
-            <ITEXT CH="In cui:  Domenica 10 novembre 2013 dalle 09.00 alle 18.00 (GMT+01.00 Italia)"/>
+            <ITEXT CH="Quando:  "/>
+            <ITEXT FCOLOR="Raspberry Red" FSHADE="100" CH="Domenica 10 novembre 2013 dalle 09.00 alle 18.00 (GMT+01.00 Italia)"/>
             <para PARENT="Body Text Cent"/>
-            <ITEXT CH="Dove:  Campus La Camilla, 267 Via Dante Alighieri, 20863 Concorezzo, Italia"/>
+            <ITEXT CH="Dove:  "/>
+            <ITEXT FCOLOR="Raspberry Red" FSHADE="100" CH="Campus La Camilla, 267 Via Dante Alighieri, 20863 Concorezzo, Italia"/>
             <para PARENT="Body Text Cent"/>
             <para PARENT="Body Text" ALIGN="1"/>
             <ITEXT CH="Esploriamolo insieme, muovendo i primi passi con linux, python, Internet e l’elettronica. Biglietto: http://corsoraspberrypi-es2.eventbrite.it"/>
@@ -254,10 +256,10 @@
             <para PARENT="Body  Headings"/>
             <para PARENT="Body Text Cent"/>
             <ITEXT FONTSIZE="12" CH="When:  "/>
-            <ITEXT FONTSIZE="12" FCOLOR="Raspberry Red" FSHADE="100" CH="Wednesday 6th to Friday 8th November 2013, 11.00am to 4.00pm (PST)"/>
+            <ITEXT FONTSIZE="12" FCOLOR="Red" FSHADE="100" CH="Friday 8th November 2013, 11.00am to 4.00pm (PST)"/>
             <para PARENT="Body Text Cent"/>
-            <ITEXT FONTSIZE="11" CH="Where:  "/>
-            <ITEXT FCOLOR="Raspberry Red" FSHADE="100" CH="Dubai English Speaking College, Dubai, UAE"/>
+            <ITEXT FONTSIZE="12" CH="Where:  "/>
+            <ITEXT FONTSIZE="12" FCOLOR="Red" FSHADE="100" CH="Dubai English Speaking College, Dubai, UAE"/>
             <para PARENT="Body Text Cent"/>
             <para PARENT="Body Text" ALIGN="1"/>
             <ITEXT FONTSIZE="11" CH="Three day festival of technology - CPD, speakers, presentations, cyber safety, Python and Scratch, including the UAE's first Raspberry Jam. http://dubaitechfest-es2.eventbrite.com"/>
