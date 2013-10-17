@@ -1,0 +1,30 @@
+Before you begin, there are directions (and two videos) on how to start Scratch with the BrickPi on the Dexter Industries website.  You will need to download a few programs and get the BrickPiScratch program from Github.  The directions are here:  http://www.dexterindustries.com/BrickPi/program-it/scratch/
+The tutorial shows you how to get support program and examples from Github and install them. 
+Remember to start the BrickPi For Scratch program in the background after opening your example Scratch program, but before running your Scratch program (sudo python BrickPiScratch.py).
+This example will read a touch sensor, and the Scratch cat will count how many times the touch sensor has been touched.  
+The first step is to connect a LEGO Mindstorms Touch Sensor to Sensor Port 1 (“S1”) on the BrickPi.  
+ 
+Open the example program “Touch Sensor test” under the directory downloaded from Github, BrickPi_Scratch\Examples\.  
+In the command line, change directory to the BrickPi_Scratch directory and run “sudo python BrickPiScratch.py”  Leave this running in the background while you work in Scratch.
+The example Scratch program should look like this:
+ 
+(I left this in a page by itself because you might want to capture all the commenting in there)
+
+
+
+
+ Variable “v” counts the number of times the touch sensor has been touched.
+This line sets the sensor S1 as the TOUCH sensor.
+These two lines setup and start the Touch Sensor.
+Start the forever loop.
+	Check for the value of the sensor.
+	Wait 1 second.
+If the Touch Sensor on S1 was pressed then make the Scratch Cat say it was pressed and increase the value of variable “v”.
+ 
+Back in Scratch, start the program.  You’ll see the Scratch Cat is stationary.
+ 
+Now if you press the touch sensor, the Scratch Cat will tell you how many times it has been pressed.
+ 
+
+There are a few other examples in Github so far that show you how to use different sensors.  There is one for the LEGO Color Sensor, the LEGO Motor, and the LEGO Ultrasound Sensor, as well as a thermometer and a flex sensor.
+
