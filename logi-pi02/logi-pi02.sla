@@ -199,81 +199,115 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="360.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="27" BACKITEM="-1">
-            <ITEXT CH="Last month's Arduino - Raspberry Pi usage article  introduced the option of directly connecting to, developing, and running an Arduino from the Raspberry Pi. This opens the door for many usages that would not otherwise be available running either of the platforms singularly.  Bringing different technologies together in this way enables wider capability in a system.  Similar to joining the Raspberry Pi and the Arduino, it is possible to connect many more technological standards to the Raspberry Pi to enable an electronic smorgasbord of functionality.  There are so many different electronics standards, interfaces, and processing architectures, and now there’s a way to use them together with the LOGi-Pi. "/>
+            <ITEXT FONTSIZE="10" CH="Hardware/Software co-design with Logi-pi"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The sea of electronics"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="We work in a sea of continually expanding electronics boards and modules.  Never has there been such an opportunity to work with so many different varieties of modules and processing architectures.  There has been an explosion of different electronics options for electronics modules from parts and connectors below .4mm pitch all the way up to the long used standard of 2.54mm pitch. There is the Arduino platform and shields, the Raspberry Pi platform and Plates, the Digilent Inc PMOD modules and Xilinx’s high performance FMC expansion module standard and many more.  Each of these standards has a myriad of off-the-shelf electronics plug in modules that can be plugged into the corresponding family of development boards enabling the platform to be used in a wide range of different applications. These standards were initially developed to meet the specific needs of the corresponding family only.  What if all of these modules could be used by a wider audience and could be used on many different development platforms?   The potential for uses and applications would go up exponentially.   What if these different module standards could be not only with well known CPU platforms, but with FPGA platforms as well?  What if all of these technologies could be used together?"/>
+            <ITEXT FONTSIZE="10" CH="Outline :"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="FPGA technology - Parallel processing"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="FPGA technology is highly contrasting to the more well known and widely used CPU technology. There a few key differences between the two.  At the low level, FPGAs are made of transistor configurations that make up logic gates that combine to make  combinational logic or flip flops that can then combine to make up register transfer logic (RTL)  and the hierarchy and abstractions  keeps going up from there. These combinations and abstractions are put together to create CPUs, custom hardware processing modules that are found in ASICS and/or the combination of the multitude of integrated circuits found on the market today."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="FPGAs are similar to CPUs in that they are able to process data.  If a CPU needs to handle tasks A, B and C, the it would typically start with task A and move through task B and C in a linear fashion to finish the tasks.  As the CPU is given new tasks, the tasks are added sequentially and are processed until they are all finished.  The CPU may become loaded with too many tasks or tasks that take a large number of instructions to complete, slowing down the processing or causing errors.  This often happens, for example, in real-time systems.  The solution would be to either remove some of the tasks or use a faster processor."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="If an FPGA had the same tasks, A,B,C, the tasks could be constructed so that each task was being processed at the same time or in parallel.  Any new tasks are also processed in parallel so no additional time is required for the additional processing.  Tasks can continue to be added as long as there is enough logic within the FPGA.  This example is not to show that FPGAs are superior to CPUs, but to show that the two technologies operate very differently.  Both are very good at doing what they do in their respective applications. The FPGA ability to have new functionality added to it without affecting the performance of other functionality makes it great for applications that require flexibility.  The complementary nature of operation between CPUs and FPGAs is also the reason that they work very well when used with each other.  When used together, these qualities of the CPUs and FPGAs complement each other and deliver outstanding results.   "/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="FPGAs are Logic Fabric - FPGAs are like a Chameleon"/>
-            <para PARENT="Body title"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="FPGAs are widely used in the electronics industry because of their unrivaled ability to be fully reconfigured to support any number of contrasting applications while not requiring any modification to the PCB hardware or design.  FPGAs are commonly referred to as “logic fabric”.  This term implies that the logic fabric can be modified, cut, pieced and applied in many different configurations to create customized applications that otherwise might require the design and fabrication of an ASIC (very expensive); or by using a mixture of different discrete logic and/or processing solutions.   Many times FPGAs are used in designs knowing that the design requirements will change and the FPGAs would need to be updated to meet the changes without modifying the existing board hardware. The only change that would be required is for new HDL code to be written and loaded into the FPGA, assuming the inputs and outputs have not changed. In this way, FPGAs are like a chameleon, taking on new colors or disguises to adapt to changing environments."/>
-            <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="Introducing the LOGi-Pi"/>
-            <para PARENT="Body title"/>
-            <ITEXT CH="The LOGi-Pi is a member of the LOGi Family of FPGA development boards.  It was designed as a solution that unifies the wide range of electronics that are currently available on the market.  The LOGi-Pi was designed to provide a plug-and-play experience that supports the most widely used electronics module interfacing standards.  This allows the maximum number of off-the-shelf hardware modules to be directly compatible in a plug-and-play manner with the LOGi-Pi.   The LOGi-Pi has drivers and applications that create a seamless solution for users who want to use an FPGA, high performance processing CPU. and a multitude of available add-on modules."/>
+            <ITEXT FONTSIZE="10" CH="        What is hardware software co-design ?"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Maximum Interfacing Compatibility with existing modules"/>
-            <para PARENT="Body title"/>
+            <ITEXT FONTSIZE="10" CH="Co-design consists of designing a project as a mixture of software components and hardware components. Software components usually run on processors (CPU, DSP, GPU ...) whereas hardware components run on an FPGA (Field Programmable Gate Array) or a dedicated ASIC (Application Specific Integrated Circuit). This kind of design method is used to take advantage of the inherent parallelism between the tasks of the application and ease re-use between applications."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The LOGi-Pi seeks to allow as much plug-and-play expansion to existing available hardware as possible by using widely available and low-cost, off-the-shelf hardware.  PMODs and Arduino Shields were chosen to be used as a standard interface, based on their wide market usage, availability, and cost.  There are currently 59 PMODs and 281 Arduino Shields available that could be used to add direct functionality to the LOGi-Pi.  Additionally, high bandwidth SATA interconnects implementing impedance controlled LVDS lines can be interfaced.  By using LVDS, such applications as HDMI, SDR, LVDS camera interfaces, and other high bandwidth applications can easily be developed on the LOGi-Pi.  All applications are intended to be implemented without needing soldering, jumper wires, or “perf” board expansion as is generally required to interface to many existing FPGA boards."/>
+            <ITEXT FONTSIZE="10" CH=" "/>
             <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="High Performance Applications"/>
-            <para PARENT="Body title"/>
-            <ITEXT CH=" "/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="The LOGi-Pi was designed to allow implementation of many high performance applications in a straightforward manner. Many popular applications are best served by the processing capabilities of an FPGA, including SDR (Software defined Radio), quad-copter control, computer vision, and bitcoin mining.  Applications have been created for the LOGI-Pi that implement machine vision, and bitcoin mining, and autonomous vehicle controller using GPS, 9-axis IMU, WIFI, and machine vision to run blob detection and color detection algorithms.   These applications are representative of a few of the applications that can be developed by using off-the-shelf components and integrating high performance CPU and FPGA technology."/>
+            <ITEXT FONTSIZE="10" CH="Such co-designs requires the user to :"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Beginners to experienced FPGA developers"/>
-            <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The LOGi-Pi was designed to give beginners an easy way to delve into advanced applications.  The LOGi-applications are all open source and are available on github.  The applications are organized in such a way that the user will simply need to have git installed on their Raspberry Pi, pull the latest pre-built applications, plug in the hardware modules, including the LOGi-Pi, and then run a shell script that will load the bitstream into the FPGA, setup any needed Raspberry Pi drivers and software, and run the application.  The source code is completely open for customizations for those who are interested in getting into the nuts and the bolts of how the applications run."/>
+            <ITEXT FONTSIZE="10" CH="- partition its application into the hardware and software components"/>
             <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="- map the components to the resources"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="No matter your experience level, there are fun applications to delve into that use the wide array of available electronics.  Let the LOGi-Pi be your gateway into exploring the latest technologies in creating fun, high performance, easy to use applications.   Watch for guides in the coming months that walk through the process of using the LOGi-Pi in conjunction with the Raspberry Pi to create these highly functional applications."/>
+            <ITEXT FONTSIZE="10" CH="- schedule the software components"/>
             <para PARENT="Body text"/>
-            <para PARENT="Body text"/>
-            <ITEXT CH="You can find information relevant to the LOGi-boards on the logi-blog [1], logi-wiki [2] or logi github repository [3].  Do you have a great idea for a cool project you would like to implement using a LOGi-Pi?  We just started the LOGi Contest which will get you a free board if your ingenious project idea  and plans for implementation are selected as a winner by the LOGi-Team [4].  Want to get involved?  We would love to have the help of anyone interested that has some basic skills in HDL and programming (C, C++, Python,etc).  Want to meet the mad geniuses behind LOGi-projects?  Meet Jonathan Piat, principal developer, and the LOGi-Team [5]?  Email us with  any feedback thoughts or suggestions [6]."/>
+            <ITEXT FONTSIZE="10" CH="- manage the communications between the different components"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="[1] "/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://valentfx.com/logi-blog"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="[2] "/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://valentfx.com/wiki"/>
+            <ITEXT FONTSIZE="10" CH="These steps can either be performed by co-design tools, or by hand, based on the knowledge of the designer. In the following we will describe how the Logi-pi can be used to perform such a co-design to run real-time control oriented applications or high performance applications with the raspberry pi."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="[3] "/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH="https://github.com/fpga-logi"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="[4] "/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://valentfx.com/logi-blog/item/logi-contest"/>
+            <ITEXT FONTSIZE="10" CH="Communication between the Logi-pi and raspberry-pi"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="[5] "/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH="http://valentfx.com/logi-blog/category/logi-team"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="[6] "/>
-            <ITEXT FCOLOR="Blue" FSHADE="100" CH="support@valentfx.com"/>
+            <ITEXT FONTSIZE="10" CH="One key aspect of a co-design is the ability to communicate between the processing units of the platform.  The processing units in this case are the FPGA and the Raspberry Pi.  In the logi project we chose to use the wishbone bus to ensure fast and reliable communication between the hardware and software components. The raspberry pi does not provide a wishbone bus on its expansion, so we decided to take advantage of the SPI port and to design a hardware “wrapper” component  in the FPGA that transforms this serial bus into a 16 bit wishbone master component. The use of this bus allows us to take advantage of the extensive repository of open-source HDL components hosted on open-cores.org."/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="To handle the communication on the SPI bus side each transaction is composed of the following information."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="1) set slave select low "/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="1) send a 16 bit command word with the 14th msb bits being the address of the access the 2nd bit to indicate burst mode (1) , and 1st bit to indicate read (1) or write (0)."/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="2) send/receive 16 bit words to/from the address set in the first transaction. If burst mode is set, the address will be increased on each subsequent access until the chip select line is set to high (end of transaction). "/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="3) set slave select high"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="Such transactions allow us to take advantage of the integrated SPI controller of the raspberry-pi which uses a 4096 byte fifo. Because we run the bus at 32Mhz which gives a theoretical bandwidth of 4MB/s, this means that we can get the following useful bandwidth with our interface:"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="1) For a single 16 bit access :(16 bit data)/(16 bit command + 16 bit data)*4MB/s =&gt; 2MB/s"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="2) For a 4094 byte access : ( 2047 * (16 bit data))/(16 bit command + 2047 * (16 bit data)) * 4MB/s  =&gt;  3,99 MB/s"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="This means that for most control based applications (writing/reading register), we get half of the theoretical bandwidth, but for data based applications (writing/reading fifo/memory) we get 99% of the theoretical bandwidth. One can argue that getting rid of the wishbone interface with application specific data communication (formatted packet of data) on the spi bus could get us the max bandwidth, but this would break the opencores.org support and will also break the generic approach we propose. This communication is abstracted using a dedicated C API that provides memory read/write functions and also fifo management for communications based on fifo embedded into the FPGA. We also provide a library of hardware components (VHDL) that the user can integrate into designs (servo controller, pwm controller, fifo controller, pid controller …)."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="Abstracting the communication layer with python"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="Because the raspberry-pi platform is targeted toward education, we decided to abstract the communication over the spi bus using a Python library that provides easy access to the Logi-pi platform. This library can then be used to abstract a complete hardware design by a Python class whose methods are directly linked to the hardware components. This is achieved by writing a python class that reflecst the hardware component inside the FPGA. This class provides access to the peripheral registers or higher level functions. For example,  a servo controller embedded inside the FPGA,  we can design a python class with the setPulse, setAngle method. These methods will then communicate with the hardware using the Logi-pi library and write the appropriate values to the corresponding peripheral address. This allows us to write the software side of the co-design in python and take advantage of the language features and libraries with high performance side being implemented in the FPGA."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="A basic example of hardware/software co-design with the logi-face"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="The logi-face is a demo based on the Logi-pi platform that acts as a telepresence device. This demo uses a set of actuators (servos, leds) to display emotions on an animatronic face.  This application is composed of a set of tasks pictured in the following diagram . "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="The tasks are partitioned on the Logi-pi platform with software components running on the raspberry-pi and hardware components on the Logi-pi. The choice of software components was made to take advantage of existing software libraries such as espeak text to speech engine and linphone SIP client. The hardware component are time critical tasks such as servo driver, led matrix controller, ADC controller and PWM controller. Further work could lead to optimize parts of the espeak tts engine in hardware (FPGA). "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="All the missing software bits (emotion generation from sip clients chat session) were written in python to leverage the language features and ease development. The hardware side was abstracted using a dedicated python class to abstract the peripherals inside the FPGA. "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="Video application overview using the logipi [a]"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="Hardware/Software co-design tends to be relevant to high performance and time-critical applications. Image processing is the kind of application that requires high throughput, and frame accurate synchronization to provide relevant results for higher level filtering application (feature tracking, visual odometry …). In the following example we developed a canny edge detector leveraging the processing power of the FPGA and the flexibility of the raspberry pi for the encoding and networking tasks.  "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="The partitioning leads to the following implementation :"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="The hardware components for the FPGA side are extracted from a project I initiated for hardware computer vision components (https://github.com/jpiat/hard-cv). In this application a communication bottleneck on the SPI bus forces us to send a downscaled image to the raspberry-pi to meet the framerate constraints. All the image processing is performed on QVGA (320x240) frames at 30 FPS (hardware can run flawlessly on larger format and higher frame-rate) and the result is downscaled to QQVGA (160x120). A custom mjpeg-streamer plugin reads a frame on the raspberry pi side, encodes it to jpeg using libjpeg and passes the frame to mjpeg-streamer for streaming (see video : http://www.youtube.com/watch?v=0HwEcmF5wxw). "/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH=" "/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="Conclusion"/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="The logipi is a nice platform to develop co-designed applications at low cost and in a small package. The ARM11 processor has plenty of computing power while the spartan 6 LX9 FPGA provides enough logic for signal processing applications. This kind of platform can easily be integrated in an electrical engineering courses because the student can first learn software development with the raspberry-pi (in python for example), then use the pre-developed hardware architecture on the FPGA to learn parallelism and then learn hardware development with the Logi-pi. For example the video application could be taught in the following steps :"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="1) Code a line detection algorithm using the OpenCV library in python"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="2) Take the code of the last step and replace the opencv calls by calls to the hardware (with the FPGA implementing canny). Learn how to re-schedule the code to take advantage of the available parallelism."/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="3) Code a small part of the all Canny pipeline in hardware and use the developed architecture in the application."/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="4) Use the output of the architecture to drive a line following robot."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="All the code of the application found in this article can be downloaded from https://github.com/fpga-logi/Logi-projects. "/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="[a]Michael Jones:"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="(If you like you can send me some case scenarios that you would like recorded and I will record and send to you so you can voice over.   Or I can do the voice as well.  You are the master of logi-face)"/>
             <trail PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
