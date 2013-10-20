@@ -49,8 +49,14 @@
         <LAYERS NUMMER="12" LEVEL="4" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff6470"/>
         <LAYERS NUMMER="13" LEVEL="8" NAME="Image" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ffaa00"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="0" useSpotColors="0" useColor="1" mirrorH="1" mirrorV="0" useICC="0" doGCR="1" doClip="1" setDevParam="0" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PDLanguage="3" markOffset="3.74231782764791e-308" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="1" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
-            <LPI Color="" Frequency="0" Angle="0" SpotFunction="0"/>
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+            <Fonts Name="FreeSans Bold"/>
+            <Subset Name="FreeSans Regular"/>
+            <Subset Name="Monaco Regular"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
+            <LPI Color="" Frequency="10" Angle="0" SpotFunction="0"/>
             <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
             <LPI Color="Cyan" Frequency="133" Angle="105" SpotFunction="3"/>
             <LPI Color="Magenta" Frequency="133" Angle="75" SpotFunction="3"/>
@@ -217,8 +223,11 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="360.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="31" BACKITEM="-1">
-            <ITEXT CH="Welcome back to the C++ Cache.  In the last article in Issue 10 some more details of streams were introduced.  C++ allows the use of C style input and output string operations such as sprintf and sscanf, but also provides string streams.  String streams can be used in a program by including the sstream header file.  Here"/>
+            <ITEXT FONTSIZE="12" CH="Welcome back to the C++ Cache.  In the last article in Issue 10, some more details of streams were introduced.  C++ allows the use of C style input and output string operations such as sprintf and sscanf, but also provides string streams.  String streams can be used in a program by including the sstream header file."/>
             <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Input string streams"/>
+            <para PARENT="Body title"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="10" CH=" #include &lt;string&gt;"/>
             <para PARENT="Code"/>
@@ -249,17 +258,11 @@
             <ITEXT FONTSIZE="10" CH="   std::istringstream inStr(str1);"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" CH="   inStr &gt;&gt; d_value;"/>
-            <ITEXT CH=" "/>
-            <ITEXT FONTSIZE="10" CH="// Collect a double value"/>
+            <ITEXT FONTSIZE="10" CH="   inStr &gt;&gt; d_value; // Collect a double value"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" CH="   inStr.seekg(0);"/>
-            <ITEXT CH=" "/>
-            <ITEXT FONTSIZE="10" CH="// Reset the string to be re-read"/>
+            <ITEXT FONTSIZE="10" CH="   inStr.seekg(0); // Reset the string to be re-read"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" CH="   inStr &gt;&gt; i_value;"/>
-            <ITEXT CH=" "/>
-            <ITEXT FONTSIZE="10" CH="// Collect an int value"/>
+            <ITEXT FONTSIZE="10" CH="   inStr &gt;&gt; i_value; // Collect an int value"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="10" CH="   std::cout &lt;&lt; &quot;First String Stream:&quot; &lt;&lt; std::endl;"/>
@@ -269,23 +272,17 @@
             <ITEXT FONTSIZE="10" CH="   std::cout &lt;&lt; &quot;i_value=&quot; &lt;&lt; i_value &lt;&lt; std::endl &lt;&lt; std::endl;"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" CH="   inStr.str(str2);"/>
-            <ITEXT CH=" "/>
-            <ITEXT FONTSIZE="10" CH="// Set the string value of the stream to the second string."/>
+            <ITEXT FONTSIZE="10" CH="   inStr.str(str2); // Set the string value of the stream to the second string."/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" CH="     "/>
+            <ITEXT FONTSIZE="10" CH=" "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" CH="   inStr &gt;&gt; d_value;"/>
-            <ITEXT CH=" "/>
-            <ITEXT FONTSIZE="10" CH="// Collect a double value"/>
+            <ITEXT FONTSIZE="10" CH="    "/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" CH="   inStr.seekg(0);"/>
-            <ITEXT CH=" "/>
-            <ITEXT FONTSIZE="10" CH="// Reset the string to be re-read"/>
+            <ITEXT FONTSIZE="10" CH="   inStr &gt;&gt; d_value; // Collect a double value"/>
             <para PARENT="Code"/>
-            <ITEXT FONTSIZE="10" CH="   inStr &gt;&gt; i_value;"/>
-            <ITEXT CH=" "/>
-            <ITEXT FONTSIZE="10" CH="// Collect an int value"/>
+            <ITEXT FONTSIZE="10" CH="   inStr.seekg(0); // Reset the string to be re-read"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   inStr &gt;&gt; i_value; // Collect an int value"/>
             <para PARENT="Code"/>
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="10" CH="   std::cout &lt;&lt; &quot;Second String Stream:&quot; &lt;&lt; std::endl;"/>
@@ -299,6 +296,94 @@
             <para PARENT="Code"/>
             <ITEXT FONTSIZE="10" CH=" }"/>
             <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="12" CH="In this example, an input string stream is used to convert a string to a double and an integer value.  At the start of the program, a double and an integer variable are declared.  Then two strings are instantiated and assigned two strings.  The first string contains a string representation of a double number, whereas the second string contains the string representation of an integer number.  A trailing space is needed to delimit the number from the end of the string.  The next step is the instantiation of an input stream called inStr.  When the inStr stream is instantiated, the string str1 is assigned to it.  Once a string stream is associated with a string, it can be used in the same way as other streams.  The string value that is in the string associated with inStr is then read once as a double value and once as an integer value.  In between the two stream read operations, the seekg() function is used to rewind the position in the stream to the start of the stream.  The two numerical values are then printed on the screen.  In the second part of the program, the input string stream is assigned the second string.  Then it is also read as an integer and as a double value.  The program converts the string to the appropriate number type, without the need to explicitly state the type needed."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="Stream states and error bits"/>
+            <para PARENT="Body title"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="12" CH="If an input string cannot be converted into the form requested the failbit will be set.  This could happen if a program is given a dictionary word rather than a number, or the number given is too large for the type requested."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH=" #include &lt;sstream&gt;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" #include &lt;iostream&gt;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" #include &lt;string&gt;"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" int strToLong(const std::string &amp;inputString, long &amp;l_value) {"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   long longValue;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   std::istringstream inStr(inputString);"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   inStr &gt;&gt; l_value;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   if ((inStr.rdstate() &amp; std::ios_base::failbit) &gt; 0) return 1;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   return 0;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" }"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" int strToDouble(const std::string &amp;inputString, double &amp;d_value) {"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   double doubleValue;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   std::istringstream inStr(inputString);"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   inStr &gt;&gt; d_value;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   if ((inStr.rdstate() &amp; std::ios_base::failbit) &gt; 0) return 1;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   return 0;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" }"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" int main() {"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   std::string str = &quot;1213333333333333222333&quot;;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   long l = 0;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   double d = 0.;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   int ret_val;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   if(strToLong(str,l) != 0) {"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="     std::cerr &lt;&lt; &quot;ERROR: strToLong failed!&quot; &lt;&lt; std::endl;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   }"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   if(strToDouble(str,d) != 0) {"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="     std::cerr &lt;&lt; &quot;ERROR: strToDouble failed!&quot; &lt;&lt; std::endl;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   }"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="  "/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   std::cout &lt;&lt; &quot;l=&quot; &lt;&lt; l &lt;&lt; &quot;, d=&quot; &lt;&lt; d &lt;&lt; std::endl;"/>
+            <para PARENT="Code"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH="   return 0;"/>
+            <para PARENT="Code"/>
+            <ITEXT FONTSIZE="10" CH=" }"/>
+            <para PARENT="Code"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="When this program runs, the strToLong function call will fail since the number provided in the string is too long for the memory allocated for a long variable type.  The stdToDouble will succeed through and the number will be converted to double format.  Try changing the value of str to a dictionary word or to a smaller number.  If the number is small enough, then both functions will be successful.  If a dictionary word is used, then both functions will fail.  "/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="This example program also demonstrates the use of string streams within functions.  Since the string stream is instantiated each time the function is called, it is not necessary to re-wind the string stream and the string assignment is only made when the stream stream constructor is called.  The functions use const references to the inputString variable, since there is no reason for the functions to update the value of inputString.  The other parameter is given as a reference, to avoid the need to explicitly pass a pointer to the function.  The state of a stream can be queried by calling the rdstate() function.  Then to determine if a problem has occurred the failbit() is used with a bitwise and operator.  Other valid iostates are goodbit (no errors), eofbit (end-of-file reached when reading data) and badbit (read or write error)."/>
+            <para PARENT="Body text"/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="&gt;&gt;&gt; Waiting to see how much room is left in issue18.... "/>
+            <trail PARENT="Body text"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="128.347086614173" YPOS="956.505590555119" WIDTH="538.588346456693" HEIGHT="730.994409444881" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="45" BACKITEM="30">
@@ -361,7 +446,19 @@
         <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="128.34708661126" YPOS="1838.39503937032" WIDTH="538.5883465" HEIGHT="730.9944094" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 730.994 538.588 730.994 538.588 730.994 538.588 730.994 0 730.994 0 730.994 0 730.994 0 730.994 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="31">
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="128.347086614173" YPOS="410.496062992126" WIDTH="538.588346456693" HEIGHT="407.5" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 407.5 538.588 407.5 538.588 407.5 538.588 407.5 0 407.5 0 407.5 0 407.5 0 407.5 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 407.5 538.588 407.5 538.588 407.5 538.588 407.5 0 407.5 0 407.5 0 407.5 0 407.5 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="6" XPOS="128.347086614173" YPOS="458" WIDTH="538.588346456693" HEIGHT="347.842519685039" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 347.843 538.588 347.843 538.588 347.843 538.588 347.843 0 347.843 0 347.843 0 347.843 0 347.843 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 347.843 538.588 347.843 538.588 347.843 538.588 347.843 0 347.843 0 347.843 0 347.843 0 347.843 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.34708661126" YPOS="968.677165354331" WIDTH="538.5883465" HEIGHT="143.322834645669" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 143.323 538.588 143.323 538.588 143.323 538.588 143.323 0 143.323 0 143.323 0 143.323 0 143.323 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 143.323 538.588 143.323 538.588 143.323 538.588 143.323 0 143.323 0 143.323 0 143.323 0 143.323 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="1" PTYPE="6" XPOS="128.34708661126" YPOS="1413.71653543016" WIDTH="538.5883465" HEIGHT="260.283464569836" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 260.283 538.588 260.283 538.588 260.283 538.588 260.283 0 260.283 0 260.283 0 260.283 0 260.283 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 260.283 538.588 260.283 538.588 260.283 538.588 260.283 0 260.283 0 260.283 0 260.283 0 260.283 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <trail/>
+            <PageItemAttributes/>
+        </PAGEOBJECT>
+        <PAGEOBJECT OwnPage="2" PTYPE="6" XPOS="128.34708661126" YPOS="1833.24409451654" WIDTH="538.5883465" HEIGHT="232.755905483458" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="Theme" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="10" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 232.756 538.588 232.756 538.588 232.756 538.588 232.756 0 232.756 0 232.756 0 232.756 0 232.756 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 232.756 538.588 232.756 538.588 232.756 538.588 232.756 0 232.756 0 232.756 0 232.756 0 232.756 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="12" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
