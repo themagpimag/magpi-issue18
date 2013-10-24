@@ -1,0 +1,6 @@
+ The Logi-Team is hard at work preparing documentation, drivers, MFG logistics and support to initiate a kickstarter campaign to launch of the Logi FPGA boards into the wild.   We plan to offer an array of peripheral boards that will allow users to learn to work with FPGAs and run some fun and interesting high performance applications using the Raspberry Pi and the Logi-Pi.  We will be posting updates in regard to the kickstarter on the ValentFx Blog Kickstarter page[1].
+
+If you just can’t wait to get your hands on a Logi-Pi and you have a great idea for an interesting project, see our Logi board competition page [2].  You can submit a project plan and we if it looks like a winner we will get a Logi-Pi out to you right away.  
+
+[1] http://valentfx.com/logi-blog/item/logi-kickstarter
+[2] http://valentfx.com/logi-blog/item/logi-contest
