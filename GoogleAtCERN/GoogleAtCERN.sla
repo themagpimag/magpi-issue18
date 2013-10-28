@@ -50,7 +50,7 @@
         <LAYERS NUMMER="12" LEVEL="4" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ff6470"/>
         <LAYERS NUMMER="13" LEVEL="8" NAME="Image" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ffaa00"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="0" useSpotColors="0" useColor="1" mirrorH="1" mirrorV="0" useICC="0" doGCR="1" doClip="1" setDevParam="0" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PDLanguage="3" markOffset="3.74231782764791e-308" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
             <Subset Name="FreeSans Bold"/>
             <Subset Name="FreeSans Regular"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
@@ -198,7 +198,13 @@
             <ITEXT CH="Why did you decide to support the Raspberry Pi @ CERN event?"/>
             <para PARENT="Body text interviewer"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The organiser contacted Google to see if anyone would be interested in events at CERN and I volunteered. I have been interested in the Raspberry Pi since before its release and was looking for events in Switzerland. I had no idea what the audience for my talks was going to be like. I knew that the Raspberry Pi attracts technical people, but I was not sure if my talks were going to be to a group of six year olds or winners of Nobel Prizes in physics, especially given that CERN is one of the heaviest users of sophisticated computer technology in Europe. I decided I was going to give a motivational talk: why computing is the basis for many exciting careers, representing a professional perspective from the industry. I also gave two technical tutorials that were more in depth for people more interested in the details."/>
+            <ITEXT CH="The organiser contacted Google to see if anyone would be interested in events at CERN and I volunteered. I have been interested in the Raspberry Pi since before its release and was looking for events "/>
+            <ITEXT FONTSIZE="11.9" CH="in Switzerland"/>
+            <ITEXT CH=". I had no idea what the aud"/>
+            <ITEXT FONTSIZE="11.9" CH="ie"/>
+            <ITEXT CH="nce for my talks was going to be like. I knew that the Raspberry Pi attracts technical people, "/>
+            <ITEXT FONTSIZE="11.9" CH="but"/>
+            <ITEXT CH=" I was not sure if my talks were going to be to a group of six year olds or winners of Nobel Prizes in physics, especially given that CERN is one of the heaviest users of sophisticated computer technology in Europe. I decided I was going to give a motivational talk: why computing is the basis for many exciting careers, representing a professional perspective from the industry. I also gave two technical tutorials that were more in depth for people more interested in the details."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Up until the last minute the language I would give the talks in was uncertain. The language of the Raspberry Pi itself is a challenge outside of the English speaking world. The documentation is mostly in English for example. Language can be a challenge to the adoption of the Raspberry Pi outside the English speaking world. Based on an audience survey we opted for my motivational talk on YouTube to be given twice, once in French and again in English as Geneva is a very international city."/>
@@ -207,7 +213,9 @@
             <ITEXT CH="The CERN events have been running for a while now and seem to be gaining good traction. What was your impression of the day as a whole?"/>
             <para PARENT="Body text interviewer"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="My impression was that the event drew a good number of primary school age children with their parents on one hand as well as some hackers, computer users interested in a cheap embedded platform, people who were curious about the Raspberry Pi, including some science teachers from the local schools. My talk on YouTube took place in the same auditorium where the Higgs Boson discovery had been announced earlier this year (which was only a tiny bit intimidating...). I was happy about the many children in the audience, who were very engaged and asking a lot of good questions."/>
+            <ITEXT CH="My impression was that the event drew a good number of primary school age children with their parents on one hand as well as some "/>
+            <ITEXT FONTSIZE="11.9" CH="hackers"/>
+            <ITEXT CH=", computer users interested in a cheap embedded platform, people who were curious about the Raspberry Pi, including some science teachers from the local schools. My talk on YouTube took place in the same auditorium where the Higgs Boson discovery had been announced earlier this year (which was only a tiny bit intimidating...). I was happy about the many children in the audience, who were very engaged and asking a lot of good questions."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="One room had a number of Raspberry Pi desktop setups running Scratch. The kids, who were mainly young, were clustered around the monitors at lunchtime creating a racing car game: a whole roomful of kids around these mini workstations. This was quite successful as the kids were clearly engaged. The atmosphere was fun and educational. People were working hands-on to support each other."/>
@@ -219,7 +227,7 @@
             <ITEXT CH="There is no cottage industry of add-on boards in Switzerland unlike the UK. Therefore it is good at events to go back to the basics and show people what they can do with the Raspberry Pi. The event at CERN included a lot of introductory assistance for people."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The Python and Minecraft workshop drew a smaller crowd but that is likely because it was later in the day at 4pm and some had already left by then. There is also always the temptation just to play Minecraft of course."/>
+            <ITEXT CH="The Python and Minecraft workshop drew a smaller crowd, but that is likely because it was later in the day at 4pm and some had already left by then. There is also always the temptation just to play Minecraft of course."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="It would be good to be able to attract older kids, from secondary school, who have career choices coming up.  Especially as there is the opportunity to show them the very cool and very real things they can do with computers. Compared to other areas of science and technology, where for example you couldn't build a working particle accelerator at home, in computing you can build your own very real web service or robot with just a Raspberry Pi, Linux and some other open-source tools. The message is that you can be working with the same technology set as Google, Facebook and other major IT tech companies in the world."/>
@@ -230,10 +238,14 @@
             <ITEXT CH="Zero-conf networking is important as the future of networking is moving towards IPv6. Therefore something like Bonjour networking is very useful where the user refers to a name like rpi1.local instead of an IP address that may dynamically be changed by the network. Learning names is easier as in real life these are the things by which you identify."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The Raspberry Pi is a great embedded platform for physical computing. Therefore &quot;just works networking&quot; is useful for people who want to do GPIO or sensors. I've noticed that interfacing with the real world is central to many of the articles in the MagPi and not having to worry about configuring the network connection makes this more straightforward."/>
+            <ITEXT CH="The Raspberry Pi is a great embedded platform for physical computing. Therefore &quot;just works networking&quot; is useful for people who want to use GPIO or sensors. I've noticed that interfacing with the real world is central to many of the articles in "/>
+            <ITEXT FONTSIZE="11.9" CH="The MagPi"/>
+            <ITEXT CH=" and not having to worry about configuring the network connection makes this more straightforward."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Programming with SQLite (http://www.sqlite.org) and Python was the other technical talk you undertook. Why do you feel Python and SQLite are such good fits for the Pi?"/>
+            <ITEXT CH="Programming with SQLite (http://www.sqlite.org) and Python was the other technical talk you undertook. Why do you feel Python and SQLite are such good fits for the "/>
+            <ITEXT FONTSIZE="12" CH="Raspberry Pi"/>
+            <ITEXT CH="?"/>
             <para PARENT="Body text interviewer"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Traditionally we refer to the &quot;LAMP stack&quot; for web applications: Linux, Apache, MySQL and PHP / Perl / Python. SQLite is an alternative to MySQL that requires hardly any installation and no dedicated server. If you need to scale up at some point you can replace it with MySQL or PostgreSQL or even a database cluster as required. SQLite doesn't need restarts and it is easy to fix issues in the database. Extracting data for use ("/>
@@ -241,54 +253,86 @@
             <ITEXT CH=": in data logging) is straightforward."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In your talk you mention &quot;Think of SQLite not as a replacement for Oracle but as a replacement for fopen()&quot;. Would you like to elaborate on what I believe is an important point? Especially for example, for data logging, which is a common activity via the GPIO pins."/>
+            <ITEXT CH="In your talk you mention &quot;Think of SQLite not as a replacement for Oracle, "/>
+            <ITEXT FONTSIZE="12" CH="but"/>
+            <ITEXT CH=" as a replacement for fopen()&quot;. Would you like to elaborate on what I bel"/>
+            <ITEXT FONTSIZE="12" CH="ie"/>
+            <ITEXT CH="ve is an important point? Especially for example, for data logging, which is a common activity via the GPIO pins."/>
             <para PARENT="Body text interviewer"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="I took this straight from SQLite and I think it is a good crisp description of what it is about. For example you can use SQLite for easy storage of configuration settings that are easier to parse and update from within an application. We shouldn't ask why should I use a database? Instead we should ask why shouldn't I? Text files are easily readable for humans but not so easy to parse for computers especially when concurrent access is needed to update the records. SQLite is a gentle introduction to databases."/>
+            <ITEXT CH="I took this straight from SQLite and I think it is a good crisp description of what it is about. For example you can use SQLite for easy storage of configuration settings that are eas"/>
+            <ITEXT FONTSIZE="11.9" CH="ie"/>
+            <ITEXT CH="r to parse and update from within an application. We shouldn't ask "/>
+            <ITEXT FONTSIZE="11.9" CH="&quot;why should"/>
+            <ITEXT CH=" I use a database?&quot; Instead we should ask &quot;why shouldn't I?&quot; Text files are easily readable for humans, "/>
+            <ITEXT FONTSIZE="11.9" CH="but"/>
+            <ITEXT CH=" not so easy to parse for computers especially when concurrent access is needed to update the records. SQLite is a gentle introduction to databases."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="For example you could take my blog post (http://blog.kugelfish.com/2013/05/raspberry-pi-internet-access-monitor.html) on an internet connection monitor using SmokePing and write the results to a SQLite database instead. Or it would be of interest to monitor temperature evolution in various rooms in a house with visualisation layers on top. This would make for interesting graphing, for example using the public Google Charts visualisation library. Sensors would output data which is written via Python to a SQLite database and then presented via a toolkit to render the visualisation."/>
+            <ITEXT CH="For example you could take my blog post (http://blog.kugelfish.com/"/>
+            <ITEXT FONTSIZE="11.9" CH="20"/>
+            <ITEXT CH="13/05/raspberry-"/>
+            <ITEXT FONTSIZE="11.9" CH="pi"/>
+            <ITEXT CH="-internet-access-monitor.html) on an internet connection monitor using SmokePing and write the results to a SQLite database instead. Or it would be of interest to monitor temperature evolution in various rooms in a house with visualisation layers on top. This would make for interesting graphing, for example using the public Google Charts visualisation library. Sensors would output data which is written via Python to a SQLite database and then presented via a toolkit to render the visualisation."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Python itself is a language that has upwards scalability. Python, like SQLite is a gentle introduction to programming but can scale to applications as large and complex as YouTube."/>
+            <ITEXT CH="Python itself is a language that has upwards scalability. Python, like SQLite, is a gentle introduction to programming, but can scale to applications as large and complex as YouTube."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Where you hoping people would see the link between your two technical talks?"/>
+            <ITEXT CH="Were you hoping people would see the link between your two technical talks?"/>
             <para PARENT="Body text interviewer"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Yes. The other presenters, such as Pierre Freyermuth who presented how to log data from a Geiger Counter with the Raspberry Pi (http://pierremuth.wordpress.com/rpiadventure), were in fields that require sensor measurement, monitoring, time series analysis and uploading of data. Combining their data with SQLite and zero-conf networking could make this even easier on the Raspberry Pi. A couple of science teachers in the audience mentioned that they would take this further. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="There is a real use case for using Raspberry Pi's in school not just to learn about computers themselves, but as a tool for science. CERN is a great example of how important computers are today in experimental science. Using a Raspberry Pi for data collection and analysis in science class would mean applying the same concepts, just at a smaller scale."/>
+            <ITEXT CH="There is a real "/>
+            <ITEXT FONTSIZE="11.9" CH="use case"/>
+            <ITEXT CH=" for using Raspberry Pi's in school not just to learn about computers themselves, but as a tool for science. CERN is a great example of how important computers are today in experimental science. Using a Raspberry Pi for data collection and analysis in science class would mean applying the same concepts, just at a smaller scale."/>
             <para PARENT="Body text"/>
-            <ITEXT CH="How well known is the Raspberry Pi in Switzerland and in schools in particular"/>
+            <ITEXT CH="How well known is the Raspberry "/>
+            <ITEXT FONTSIZE="12" CH="Pi"/>
+            <ITEXT CH=" "/>
+            <ITEXT FONTSIZE="12" CH="in Switzerland"/>
+            <ITEXT CH=" and in schools in particular?"/>
             <para PARENT="Body text interviewer"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="As far as I can tell, the Raspberry Pi is not really well known in Switzerland or much used in schools. Maybe this is because access to computers in schools has not really been as much a problem as what to do with them. There are negotiations going on in government to harmonise the next generation of lesson plans in computing and industry is lobbying for computer science to be a bigger piece of the curriculum. There is a danger it will be lumped in with Media Studies and would not be a technical subject. We will need students who are also familiar with the maths and science side of computing. In Media Studies it becomes more about ethics, responsible and safe use of digital media, for example the implications of posting pictures on Facebook. There is a lot of pushing for computing as a technical subject, but the Raspberry Pi is not part of the story from what I have seen so far."/>
+            <ITEXT CH="As far as I can tell, the Raspberry "/>
+            <ITEXT FONTSIZE="11.9" CH="Pi"/>
+            <ITEXT CH=" is not really well known "/>
+            <ITEXT FONTSIZE="11.9" CH="in Switzerland"/>
+            <ITEXT CH=" or much used in schools. Maybe this is because access to computers in schools has not really been as much a problem as what to do with them. There are negotiations going on in government to harmonise the next generation of lesson plans in computing and industry is lobbying for computer sc"/>
+            <ITEXT FONTSIZE="11.9" CH="ie"/>
+            <ITEXT CH="nce to be a bigger piece of the curriculum. There is a danger it will be lumped in with Media Studies and would not be a technical subject. We will need students who are also familiar with the maths and science side of computing. In Media Studies it becomes more about ethics, responsible and safe use of digital media, for example the implications of posting pictures on Facebook. There is a lot of pushing for computing as a technical subject, but the Raspberry Pi is not part of the story from what I have seen so far."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="I think what is more important than teaching a particular programming language or application, it would be essential that every student is introduced to how computers work and learns the concepts of &quot;algorithmic thinking&quot; which are the foundations for all programming."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="From what I can remember, in Switzerland computing has never been integrated much into the school curriculum unlike for example in the UK with the BBC Micro. Computer interest was mainly happening outside of school as a hobby. But home computing mostly died out in the 1990's with the growing maturity and sophistication of PCs. Now that we are moving into the post PC world, computers are even more common, more polished. For example, my daughter was able to use an iPad by herself from a very young age. But at the same time, computers have also become more closed and less hackable and we have moved from tinkering with computers to simply using them. For example: undertaking your own game programming is intimidating as there is a feeling you have to equal the games from the big publishers, but in the 1980s you could pretty much come up with the same quality game at home as the companies producing them which was encouraging. This applies to all software. For example I wrote a text editor in assembly once as the one I had was too slow."/>
+            <ITEXT CH="From what I can remember, in Switzerland, computing has never been integrated much into the school curriculum unlike for example in the UK with the BBC Micro. Computer interest was mainly happening outside of school as a hobby. But home computing mostly died out in the 1990's with the growing maturity and sophistication of PCs. Now that we are moving into the post PC world, computers are even more common, more polished. For example, my daughter was able to use an iPad by herself from a very young age. But at the same time, computers have also become more closed and less hackable and we have moved from tinkering with computers to simply using them. For example, undertaking your own game programming is intimidating as there is a feeling you have to equal the games from the big publishers, but in the 1980s you could pretty much come up with the same quality game at home as the companies producing them which was encouraging. This applies to all software. For example I wrote a text editor in assembly once as the one I had was too slow."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Despite not being very known yet, do you think that the Raspberry Pi could help computer education in Switzerland?&quot;"/>
+            <ITEXT CH="Despite not being very known yet, do you think that the Raspberry "/>
+            <ITEXT FONTSIZE="12" CH="Pi"/>
+            <ITEXT CH=" could help computer education in Switzerland?"/>
             <para PARENT="Body text interviewer"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Certainly yes. It is true that you don't need a Raspberry Pi to program in Scratch or Python for example and in fact using existing PCs might be much easier for that. However the great advantage of a Raspberry Pi for a child is that this is a computer they can own, customise and no matter what they do, can hardly break. Even if the OS no longer boots, you can simply replace the flash card and it is working again! Unlike with other computers at school or at home, there has to be no fear of breaking things, no need to hold back on experimentation!"/>
+            <ITEXT CH="Certainly yes. It is true that you don't need a Raspberry "/>
+            <ITEXT FONTSIZE="11.9" CH="Pi"/>
+            <ITEXT CH=" to program in Scratch or Python for example and in fact using existing PCs might be much easier for that. However the great advantage of a Raspberry Pi for a child is that this is a computer they can own, customise and no matter what they do, can hardly break. Even if the OS no longer boots, you can simply replace the flash card and it is working again! Unlike with other computers at school or at home, there has to be no "/>
+            <ITEXT FONTSIZE="11.9" CH="fear"/>
+            <ITEXT CH=" of breaking things, no need to hold back on experimentation!"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Being such a great device for low-cost, low-power physical computing, maybe this is where the Raspberry Pi can really shine. Maybe the Raspberry Pi isn't meant to replace a PC, but to be used for building all kinds of new devices, which can be easily connected to an existing PC as a &quot;side-car&quot; or plugged into a home network. This is what I had in mind with the zero-conf networking talk."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Lastly, can you tell us a bit about yourself."/>
+            <ITEXT CH="Lastly, can you tell us a bit about yourself?"/>
             <para PARENT="Body text interviewer"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Like many people involved with the Raspberry Pi, I grew up during the golden age of home computers, where programming was new and exciting enough that even non-technical magazines had articles about computers programming and printed introductions in BASIC programming. I spent long hours at friends houses who had computers and we did extensive BASIC programming. My first computer was an Amiga 500, which provided a great introduction to &quot;real&quot; operating systems. I taught myself C &amp; M68k assembly, the basics of computer architecture and operating systems from magazines and books (I fondly remember the excellent &quot;Amiga Intern&quot; from Data Becker, a German publisher)."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="I first heard about Linux in about 1991 and after some research upgraded to a i386 PC specifically to run Linux. I was just starting university and had my first Internet access on the old VAX of the EE department, where I downloaded floppy images for one of the first Linux distributions. When I got an Internship at AT&amp;T Bell Labs Research, I was very excited to be working along some of my heroes and demi-gods of the computer worlds, I guess I was something of a UNIX groupie ;-)"/>
+            <ITEXT CH="I first heard about Linux in about 1991 and after some research upgraded to a i386 PC specifically to run Linux. I was just starting university and had my first Internet access on the old VAX of the EE department, where I downloaded floppy images for one of the first Linux distributions. When I got an Internship at AT&amp;T Bell Labs Research, I was very excited to be working along some of my heroes and demi-gods of the computer world, I guess I was something of a UNIX groupie ;-)"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Throughout my career I have always been lucky to work with very bright people who were very good at what they were doing. In order to become a good software developer, it probably helps to do serious programming in extra-curricular activities long before going to university. I hope that some future entrepreneurs, innovators and computer experts will one day be able to say that it was the Raspberry Pi which sparked the launch of their fascinating career."/>
