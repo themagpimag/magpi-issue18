@@ -223,7 +223,7 @@
             <ITEXT CH=" GPIO.setup(17, GPIO.IN)"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In part 1 of the tutorial, the input pin was tied high by connecting it to our 3.3V pin.  The purpose of our Python programme is to check to see if the input pin has been bought low e.g. when the button has been pressed.  To check the high/low status of the pin we're going to use a True or False statement within an infinite loop.  We need to tie our True statement to the high value of our input pin.  To do so we need to create a new variable called input_value and set it to the current value of GPIO P17 [Pin 11]. "/>
+            <ITEXT CH="In part 1 of the tutorial, the input pin was tied high by connecting it to our 3.3V pin.  The purpose of our Python program is to check to see if the input pin has been brought low e.g. when the button has been pressed.  To check the high/low status of the pin we're going to use a True or False statement within an infinite loop.  We need to tie our True statement to the high value of our input pin.  To do so we need to create a new variable called input_value and set it to the current value of GPIO P17 [Pin 11]. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" while True:"/>
@@ -232,12 +232,13 @@
             <ITEXT CH="   input_value = GPIO.input(17)"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Next we'll add some code so that the program will display a message when the button is pressed.  For this, we'll use a False condition e.g. when the input_value (which is tied high) is no longer equal to the input_value, which occurs when the button is pressed and its pulled low, execute a command. "/>
+            <para PARENT="Body text"/>
+            <ITEXT CH="The next step is to add a condition that will print something when the button is pressed.  For this, we'll use a False condition.   The input_value is False when the button is pressed and the associated signal is pulled low.  This can be checked with a simple Python it statement."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="   if input_value == False:"/>
             <para PARENT="Code"/>
-            <ITEXT CH="     print(''Who pressed my button!)"/>
+            <ITEXT CH="     print(&quot;Who pressed my button?&quot;)"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <ITEXT CH="When the button is pressed the program will now display the text: Who pressed my button?, feel free the change this to anything you want."/>
@@ -276,10 +277,10 @@
             <ITEXT CH=" sudo python button.py"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="At first nothing will happen, but if you press the button the program will print the defined message.  To exit a running Python script, simply hit CTRL+C on the keyboard to terminate.If it hasn't worked don't worry. First check the circuit is connected correctly on the breadboard as defined in part 1, then that the jumper wires are connected to the correct pins on the GPIO port. If it still fails to work, double check each line on the program is correcting remembering that python is case-sensitive and indentation is correct. I find that typing the code out by hand will give better results than a simple copy/paste.  This is a deceptively simple program that can be used for many purposes. The same code could be used to read when the pins of separate devices, such as a sensor or external micro-controller, have been pulled high or low."/>
+            <ITEXT CH="At first nothing will happen, but if you press the button the program will print the defined message.  To exit a running Python script, simply hit CTRL+C on the keyboard to terminate.  If it hasn't worked don't worry. First check the circuit is connected correctly on the breadboard as defined in part 1, then that the jumper wires are connected to the correct pins on the GPIO port.  If it still fails to work, double check each line of the program is correct remembering that python is case-sensitive and checking if indentation is correct. I find that typing the code out by hand will give better results than a simple copy/paste.  This is a deceptively simple program that can be used for many purposes. The same code could be used to read when the pins of separate devices, such as a sensor or external micro-controller, have been pulled high or low."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Adding a LED"/>
+            <ITEXT CH="Adding an LED"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
             <ITEXT CH="We'll carry on using the same breadboard as before but will require a couple extra components:"/>
@@ -294,7 +295,7 @@
             <ITEXT CH="An output pin on the GPIO port can be set to either 0V (low) or 3.3V (high). Our expansion circuit will wire up an LED between an output pin and a ground pin on the Raspberry Pi's GPIO port. We’ll be using Python to trigger our output pin high, causing a current to pass through the LED, lighting it up! We also add a 330Ω Resistor to limit the current that is passed through the LED."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="For this exercise we will connect the LED to GPIO P18 [Pin 12] which will be defined later in our program as an output. We will use the same the ground pin GPIO GND [Pin 6] as before which is already connected to the Negative rail (-) on our breadboard."/>
+            <ITEXT CH="For this exercise we will connect the LED to GPIO P18 [Pin 12] which will be defined later in our program as an output. We will use the same  ground pin GPIO GND [Pin 6] as before, which is already connected to the Negative rail (-) on our breadboard."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Building the Circuit "/>
@@ -441,7 +442,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="128.347086614173" YPOS="2004.17322834646" WIDTH="257.192637795275" HEIGHT="194" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.257192637795275" LOCALSCY="0.257192637795275" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="IMGA0951_small.JPG" PFILE2="" PFILE3="" PRFILE="Embedded sRGB IEC61966-2.1" EPROF="Embedded sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.193 0 257.193 0 257.193 0 257.193 0 257.193 194 257.193 194 257.193 194 257.193 194 0 194 0 194 0 194 0 194 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.193 0 257.193 0 257.193 0 257.193 0 257.193 194 257.193 194 257.193 194 257.193 194 0 194 0 194 0 194 0 194 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="2" PTYPE="2" XPOS="128.347086614173" YPOS="2003.17322834646" WIDTH="257.192637795275" HEIGHT="194" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.257192637795275" LOCALSCY="0.257192637795275" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="IMGA0951_small.JPG" PFILE2="" PFILE3="" PRFILE="Embedded sRGB IEC61966-2.1" EPROF="Embedded sRGB IEC61966-2.1" IRENDER="0" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 257.193 0 257.193 0 257.193 0 257.193 0 257.193 194 257.193 194 257.193 194 257.193 194 0 194 0 194 0 194 0 194 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 257.193 0 257.193 0 257.193 0 257.193 0 257.193 194 257.193 194 257.193 194 257.193 194 0 194 0 194 0 194 0 194 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
