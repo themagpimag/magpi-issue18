@@ -197,8 +197,10 @@
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="244.511811023622" WIDTH="381.977086614173" HEIGHT="77.25" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="28" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="25" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 381.977 0 381.977 0 381.977 0 381.977 0 381.977 77.25 381.977 77.25 381.977 77.25 381.977 77.25 0 77.25 0 77.25 0 77.25 0 77.25 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 381.977 0 381.977 0 381.977 0 381.977 0 381.977 77.25 381.977 77.25 381.977 77.25 381.977 77.25 0 77.25 0 77.25 0 77.25 0 77.25 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="5" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="23" CH="Hardware/Software co-design with LOGi-Pi"/>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="236.007874015748" WIDTH="381.977086614173" HEIGHT="77.25" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="28" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="25" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 381.977 0 381.977 0 381.977 0 381.977 0 381.977 77.25 381.977 77.25 381.977 77.25 381.977 77.25 0 77.25 0 77.25 0 77.25 0 77.25 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 381.977 0 381.977 0 381.977 0 381.977 0 381.977 77.25 381.977 77.25 381.977 77.25 381.977 77.25 0 77.25 0 77.25 0 77.25 0 77.25 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="5" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="23" CH="Hardware/software co-design"/>
+            <para LINESP="28"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="23" CH="with LOGi-Pi"/>
             <trail LINESP="28"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -206,13 +208,13 @@
             <ITEXT CH="Hardware/software co-design"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="Co-design consists of designing a project as a mixture of software components and hardware components. Software components usually run on processors (CPU, DSP, GPU ...) whereas hardware components run on an FPGA (Field Programmable Gate Array) or a dedicated ASIC (Application Specific Integrated Circuit). This kind of design method is used to take advantage of the inherent parallelism between the tasks of the application and ease re-use between applications."/>
+            <ITEXT FONTSIZE="10" CH="Co-design consists of designing a project as a mixture of software components and hardware components. Software components usually run on processors (CPU, DSP, GPU etc.) whereas hardware components run on an FPGA (Field Programmable Gate Array) or a dedicated ASIC (Application Specific Integrated Circuit). This kind of design method is used to take advantage of the inherent parallelism between the tasks in an application and ease re-use between applications."/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="10" CH=" "/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="10" CH="Such co-designs requires the user to :"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="- partition its application into the hardware and software components"/>
+            <ITEXT FONTSIZE="10" CH="- partition an application into hardware and software components"/>
             <para PARENT="Body text" ALIGN="0"/>
             <ITEXT FONTSIZE="10" CH="- map the components to the resources"/>
             <para PARENT="Body text" ALIGN="0"/>
@@ -221,53 +223,58 @@
             <ITEXT FONTSIZE="10" CH="- manage the communications between the different components"/>
             <para PARENT="Body text" ALIGN="0"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="These steps can either be performed by co-design tools, or by hand, based on the knowledge of the designer. In the following we will describe how the Logi-pi can be used to perform such a co-design to run real-time control oriented applications or high performance applications with the raspberry pi."/>
+            <ITEXT FONTSIZE="10" CH="These steps can either be performed by co-design tools or by hand, based on the knowledge of the designer. In the following we will describe how the LOGi-Pi can be used to perform such a co-design to run real-time control oriented applications or high performance applications with the Raspberry Pi."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="LOGi-Pi with Raspberry Pi"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="One key aspect of a co-design is the ability to communicate between the processing units of the platform.  The processing units in this case are the FPGA and the Raspberry Pi.  In the logi project we chose to use the wishbone bus to ensure fast and reliable communication between the hardware and software components. The raspberry pi does not provide a wishbone bus on its expansion, so we decided to take advantage of the SPI port and to design a hardware “wrapper” component  in the FPGA that transforms this serial bus into a 16 bit wishbone master component. The use of this bus allows us to take advantage of the extensive repository of open-source HDL components hosted on open-cores.org."/>
+            <ITEXT FONTSIZE="10" CH="One key aspect of a co-design is the ability to communicate between the processing units of the platform.  The processing units in this case are the FPGA and the Raspberry Pi.  In the LOGi project we chose to use the Wishbone bus to ensure fast and reliable communication between the hardware and software components. The Raspberry Pi does not provide a Wishbone bus on its expansion, so we decided to take advantage of the SPI port and design a hardware “wrapper” component  in the FPGA that transforms this serial bus into a 16 bit Wishbone master component. The use of this bus allows us to take advantage of the extensive repository of open-source HDL components hosted on "/>
+            <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="open-cores.org"/>
+            <ITEXT FONTSIZE="10" CH="."/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="To handle the communication on the SPI bus side each transaction is composed of the following information."/>
             <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="To handle the communication on the SPI bus side, each transaction is composed of the following information"/>
+            <ITEXT CH=" :"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="10" CH="1) set slave select low "/>
             <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT FONTSIZE="10" CH="2) send a 16 bit command word with the 14th msb bits being the address of the access the 2nd bit to indicate burst mode (1) , and 1st bit to indicate read (1) or write (0)."/>
+            <ITEXT FONTSIZE="10" CH="2) send a 16 bit command word with the 14th msb bits as the address of the access the 2nd bit to indicate burst mode (1) , and 1st bit to indicate read (1) or write (0)."/>
             <para PARENT="Body text" ALIGN="0"/>
             <ITEXT FONTSIZE="10" CH="3) send/receive 16 bit words to/from the address set in the first transaction. If burst mode is set, the address will be increased on each subsequent access until the chip select line is set to high (end of transaction). "/>
             <para PARENT="Body text" ALIGN="0"/>
             <ITEXT FONTSIZE="10" CH="4) set slave select high"/>
             <para PARENT="Body text" ALIGN="0"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="Such transactions allow us to take advantage of the integrated SPI controller of the raspberry-pi which uses a 4096 byte fifo. Because we run the bus at 32Mhz which gives a theoretical bandwidth of 4MB/s, this means that we can get the following useful bandwidth with our interface:"/>
+            <ITEXT FONTSIZE="10" CH="Such transactions allow us to take advantage of the integrated SPI controller of the Raspberry Pi, which uses a 4096 byte FIFO.  Since we run the bus at 32MHz which gives a theoretical bandwidth of 4MB/s, this means that we can get the following useful bandwidth with our interface:"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="10" CH="1) For a single 16 bit access :(16 bit data)/(16 bit command + 16 bit data)*4MB/s =&gt; 2MB/s"/>
             <para PARENT="Body text" ALIGN="0"/>
-            <ITEXT FONTSIZE="10" CH="2) For a 4094 byte access : ( 2047 * (16 bit data))/(16 bit command + 2047 * (16 bit data)) * 4MB/s  =&gt;  3,99 MB/s"/>
+            <ITEXT FONTSIZE="10" CH="2) For a 4094 byte access : ( 2047 * (16 bit data))/(16 bit command + 2047 * (16 bit data)) * 4MB/s  =&gt;  3.99 MB/s"/>
             <para PARENT="Body text" ALIGN="0"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="This means that for most control based applications (writing/reading register), we get half of the theoretical bandwidth, but for data based applications (writing/reading fifo/memory) we get 99% of the theoretical bandwidth. One can argue that getting rid of the wishbone interface with application specific data communication (formatted packet of data) on the spi bus could get us the max bandwidth, but this would break the opencores.org support and will also break the generic approach we propose. This communication is abstracted using a dedicated C API that provides memory read/write functions and also fifo management for communications based on fifo embedded into the FPGA. We also provide a library of hardware components (VHDL) that the user can integrate into designs (servo controller, pwm controller, fifo controller, pid controller …)."/>
+            <ITEXT FONTSIZE="10" CH="This means that for most control based applications (writing/reading register), we get half of the theoretical bandwidth, but for data based applications (writing/reading fifo/memory) we get 99% of the theoretical bandwidth.  One can argue that removing the Wishbone interface in favour of an application specific data communication (formatted packet of data) on the SPI bus could enable the maximum bandwidth, but this would break the "/>
+            <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="opencores.org"/>
+            <ITEXT FONTSIZE="10" CH=" support and would also break the generic approach we have implemented.  The communication is abstracted using a dedicated C API that provides memory read/write functions and also FIFO management for communications based on a FIFO embedded into the FPGA.  We also provide a library of hardware components (VHDL) that the user can integrate into designs (servo controller, PWM controller, fifo controller, pid controller, etc.)."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Abstracting communication layer with Python"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="Because the raspberry-pi platform is targeted toward education, we decided to abstract the communication over the spi bus using a Python library that provides easy access to the Logi-pi platform. This library can then be used to abstract a complete hardware design by a Python class whose methods are directly linked to the hardware components. This is achieved by writing a python class that reflecst the hardware component inside the FPGA. This class provides access to the peripheral registers or higher level functions. For example,  a servo controller embedded inside the FPGA,  we can design a python class with the setPulse, setAngle method. These methods will then communicate with the hardware using the Logi-pi library and write the appropriate values to the corresponding peripheral address. This allows us to write the software side of the co-design in python and take advantage of the language features and libraries with high performance side being implemented in the FPGA."/>
+            <ITEXT FONTSIZE="10" CH="Because the Raspberry Pi platform is targeted towards education, we decided to abstract the communication over the SPI bus using a Python library that provides easy access to the LOGi-Pi platform. This library can then be used to abstract a complete hardware design using a Python class whose methods are directly linked to the hardware components.  This is achieved by writing a Python class that reflects the hardware component inside the FPGA. This class provides access to the peripheral registers or higher level functions. For example,  a servo controller embedded inside the FPGA,  we can design a Python class with the setPulse, setAngle method. These methods will then communicate with the hardware using the LOGi-Pi library and write the appropriate values to the corresponding peripheral address. This allows us to write the software side of the co-design in python and take advantage of the language features and libraries with high performance side being implemented in the FPGA."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Basic hardware/software co-design with LOGi-face"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="The logi-face is a demo based on the Logi-pi platform that acts as a telepresence device. This demo uses a set of actuators (servos, leds) to display emotions on an animatronic face.  This application is composed of a set of tasks pictured in the following diagram. "/>
+            <ITEXT FONTSIZE="10" CH="The LOGi-face is a demo based on the LOGi-Pi platform that acts as a telepresence device. This demo uses a set of actuators (servos, leds) to display emotions on an animatronic face.  This application is composed of a set of tasks pictured in the following diagram: "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="10" CH="The tasks are partitioned on the LOGi-Pi platform with software components running on the raspberry-pi and hardware components on the LOGi-Pi. The choice of software components was made to take advantage of existing software libraries such as espeak text to speech engine and linphone SIP client. The hardware component are time critical tasks such as servo driver, led matrix controller, ADC controller and PWM controller. Further work could lead to optimize parts of the espeak tts engine in hardware (FPGA). "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="All the missing software bits (emotion generation from sip clients chat session) were written in python to leverage the language features and ease development. The hardware side was abstracted using a dedicated python class to abstract the peripherals inside the FPGA. "/>
+            <ITEXT FONTSIZE="10" CH="All the missing software bits (emotion generation from sip clients chat session) were written in Python to leverage the language features and ease development. The hardware side was abstracted using a dedicated python class to abstract the peripherals inside the FPGA. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="10" CH="Video application overview using the LOGi-Pi"/>
@@ -394,7 +401,7 @@
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="128.347086614173" YPOS="1449.76377952756" WIDTH="538.588346456693" HEIGHT="256.440944881888" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.1536" LOCALSCY="0.1536" LOCALX="166.092519685039" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="logiface-diagram-2.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 256.441 538.588 256.441 538.588 256.441 538.588 256.441 0 256.441 0 256.441 0 256.441 0 256.441 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 256.441 538.588 256.441 538.588 256.441 538.588 256.441 0 256.441 0 256.441 0 256.441 0 256.441 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="128.347086614173" YPOS="1463" WIDTH="538.588346456693" HEIGHT="248.874015748031" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.1488" LOCALSCY="0.1488" LOCALX="228.600457200914" LOCALY="6.30556261112522" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="1" TEXTFLOW="1" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="logiface-diagram-2.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 248.874 538.588 248.874 538.588 248.874 538.588 248.874 0 248.874 0 248.874 0 248.874 0 248.874 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 248.874 538.588 248.874 538.588 248.874 538.588 248.874 0 248.874 0 248.874 0 248.874 0 248.874 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
