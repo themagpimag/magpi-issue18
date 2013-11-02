@@ -271,16 +271,15 @@
             <ITEXT FONTSIZE="10" CH="The LOGi-face is a demo based on the LOGi-Pi platform that acts as a telepresence device. This demo uses a set of actuators (servos, leds) to display emotions on an animatronic face.  This application is composed of a set of tasks pictured in the following diagram: "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="The tasks are partitioned on the LOGi-Pi platform with software components running on the raspberry-pi and hardware components on the LOGi-Pi. The choice of software components was made to take advantage of existing software libraries such as espeak text to speech engine and linphone SIP client. The hardware component are time critical tasks such as servo driver, led matrix controller, ADC controller and PWM controller. Further work could lead to optimize parts of the espeak tts engine in hardware (FPGA). "/>
+            <ITEXT FONTSIZE="10" CH="The tasks are partitioned on the LOGi-Pi platform with software components running on the Raspberry Pi and hardware components on the LOGi-Pi. The choice of software components was made to take advantage of existing software libraries such as the Espeak text to speech engine and Linphone SIP client. The hardware components take care of time critical tasks such as servo driver, LED matrix controller, ADC controller and PWM controller. Further work could lead to optimize parts of the Espeak tts engine in the hardware (FPGA). "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="All the missing software bits (emotion generation from sip clients chat session) were written in Python to leverage the language features and ease development. The hardware side was abstracted using a dedicated python class to abstract the peripherals inside the FPGA. "/>
-            <para PARENT="Body text"/>
+            <ITEXT FONTSIZE="10" CH="All the missing software components (emotion generation from sip clients chat session) were written in Python, to leverage the language features and ease development. The hardware side was abstracted using a dedicated Python class to abstract the peripherals inside the FPGA. "/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="10" CH="Video application overview using the LOGi-Pi"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="Hardware/Software co-design tends to be relevant to high performance and time-critical applications. Image processing is the kind of application that requires high throughput, and frame accurate synchronization to provide relevant results for higher level filtering application (feature tracking, visual odometry …). In the following example we developed a canny edge detector leveraging the processing power of the FPGA and the flexibility of the raspberry pi for the encoding and networking tasks.  "/>
+            <ITEXT FONTSIZE="10" CH="Hardware/software co-design tends to be relevant to high performance and time-critical applications. Image processing is the kind of application that requires high throughput, and frame accurate synchronisation, to provide relevant results for higher level filtering applications (feature tracking, visual odometry, etc.). In the following example we developed a canny edge detector leveraging the processing power of the FPGA and the flexibility of the Raspberry Pi for the encoding and networking tasks.  "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
@@ -289,16 +288,19 @@
             <ITEXT CH="given below."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="The hardware components for the FPGA side are extracted from a project I initiated for hardware computer vision components (https://github.com/jpiat/hard-cv). In this application a communication bottleneck on the SPI bus forces us to send a downscaled image to the raspberry-pi to meet the framerate constraints. All the image processing is performed on QVGA (320x240) frames at 30 FPS (hardware can run flawlessly on larger format and higher frame-rate) and the result is downscaled to QQVGA (160x120). A custom mjpeg-streamer plugin reads a frame on the raspberry pi side, encodes it to jpeg using libjpeg and passes the frame to mjpeg-streamer for streaming (see video : "/>
+            <ITEXT FONTSIZE="10" CH="The hardware components for the FPGA side are extracted from a project I initiated for hardware computer vision components [ "/>
+            <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="https://github.com/jpiat/hard-cv"/>
+            <ITEXT FONTSIZE="10" CH=" ]. In this application a communication bottleneck on the SPI bus forces us to send a downscaled image to the Raspberry Pi, to meet the framerate constraints.  All of the image processing is performed on QVGA (320x240) frames at 30 FPS (the hardware can run flawlessly for larger format and higher frame-rate) and the result is downscaled to QQVGA (160x120).  A custom MJPEG-streamer plugin reads a frame on the Raspberry Pi side, encodes it as a JPEG using libjpeg and passes the frame to MJPEG-streamer for streaming [ see video : "/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="http://www.youtube.com/watch?v=0HwEcmF5wxw). "/>
+            <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="http://www.youtube.com/watch?v=0HwEcmF5wxw"/>
+            <ITEXT FONTSIZE="10" CH=" ]. "/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="10" CH=" "/>
             <para PARENT="Body text"/>
             <ITEXT CH="Conclusion"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="The logipi is a nice platform to develop co-designed applications at low cost and in a small package. The ARM11 processor has plenty of computing power while the spartan 6 LX9 FPGA provides enough logic for signal processing applications. This kind of platform can easily be integrated in an electrical engineering courses because the student can first learn software development with the raspberry-pi (in python for example), then use the pre-developed hardware architecture on the FPGA to learn parallelism and then learn hardware development with the LOGi-Pi. For example the video application could be taught in the following steps :"/>
+            <ITEXT FONTSIZE="10" CH="The LOGi-Pi is a great platform to develop co-designed applications at low cost and in a small package. The ARM11 processor has plenty of computing power, while the Spartan 6 LX9 FPGA provides enough logic for signal processing applications. This kind of platform can easily be integrated into electrical engineering courses, because the a student can first learn software development with the Raspberry Pi (in Python for example), then use the pre-developed hardware architecture on the FPGA to learn parallelism and then learn hardware development with the LOGi-Pi. For example, the video application could be taught in the following steps :"/>
             <para PARENT="Body text"/>
             <ITEXT FONTSIZE="10" CH="1) Code a line detection algorithm using the OpenCV library in python"/>
             <para PARENT="Body text" ALIGN="0"/>
@@ -309,7 +311,9 @@
             <ITEXT FONTSIZE="10" CH="4) Use the output of the architecture to drive a line following robot."/>
             <para PARENT="Body text" ALIGN="0"/>
             <para PARENT="Body text"/>
-            <ITEXT FONTSIZE="10" CH="All the code of the application found in this article can be downloaded from https://github.com/fpga-logi/Logi-projects. "/>
+            <ITEXT FONTSIZE="10" CH="All the code of the application found in this article can be downloaded from "/>
+            <ITEXT FONTSIZE="10" FCOLOR="Blue" FSHADE="100" CH="https://github.com/fpga-logi/Logi-projects"/>
+            <ITEXT FONTSIZE="10" CH=". "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
