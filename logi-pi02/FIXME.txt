@@ -1,0 +1,2 @@
+SPI_Transaction_pdf is a pdf file.
+The file is from techpaul, who comments that the SPI description in the text is currently wrong.
