@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SCRIBUSUTF8NEW Version="1.4.2">
+<SCRIBUSUTF8NEW Version="1.4.1.svn">
     <DOCUMENT ANZPAGES="3" PAGEWIDTH="595.275590551181" PAGEHEIGHT="841.889763779528" BORDERLEFT="28.3464566929134" BORDERRIGHT="28.3464566929134" BORDERTOP="28.3464566929134" BORDERBOTTOM="28.3464566929134" PRESET="0" BleedTop="8.50393700787402" BleedLeft="8.50393700787402" BleedRight="8.50393700787402" BleedBottom="8.50393700787402" ORIENTATION="0" PAGESIZE="A4" FIRSTNUM="1" BOOK="0" AUTOSPALTEN="1" ABSTSPALTEN="3.881" UNITS="1" DFONT="Bitstream Charter Bold" DSIZE="12" DCOL="1" DGAP="0" TabFill="" TabWidth="36" AUTHOR="" COMMENTS="" KEYWORDS="" PUBLISHER="" DOCDATE="" DOCTYPE="" DOCFORMAT="" DOCIDENT="" DOCSOURCE="" DOCLANGINFO="" DOCRELATION="" DOCCOVER="" DOCRIGHTS="" DOCCONTRIB="" TITLE="" SUBJECT="" VHOCH="33" VHOCHSC="66" VTIEF="33" VTIEFSC="66" VKAPIT="75" BASEGRID="14.4" BASEO="0" AUTOL="20" UnderlinePos="-1" UnderlineWidth="-1" StrikeThruPos="-1" StrikeThruWidth="-1" GROUPC="3" HCMS="0" DPSo="0" DPSFo="0" DPuse="0" DPgam="0" DPbla="1" DPMo="CineonLog M " DPPr="Fogra27L CMYK Coated Press" DPIn="CineonLog M " DPInCMYK="Fogra27L CMYK Coated Press" DPIn2="CineonLog M " DPIn3="Fogra27L CMYK Coated Press" DISc="1" DIIm="0" ALAYER="6" LANGUAGE="English" MINWORDLEN="3" HYCOUNT="2" AUTOMATIC="1" AUTOCHECK="0" GUIDELOCK="1" SnapToGuides="1" SnapToGrid="0" MINGRID="20.0012598425197" MAJGRID="100.00062992126" SHOWGRID="0" SHOWGUIDES="1" showcolborders="1" SHOWFRAME="0" SHOWLAYERM="1" SHOWMARGIN="1" SHOWBASE="0" SHOWPICT="1" SHOWControl="0" SHOWLINK="0" rulerMode="1" showrulers="1" showBleed="1" rulerXoffset="0" rulerYoffset="0" GuideRad="10" GRAB="4" POLYC="4" POLYF="0.707106781186548" POLYR="0" POLYCUR="0" POLYFD="0" POLYS="0" AutoSave="1" AutoSaveTime="600000" ScratchBottom="20.0012598425197" ScratchLeft="100.00062992126" ScratchRight="100.00062992126" ScratchTop="20.0012598425197" GapHorizontal="0" GapVertical="39.9996850393701" StartArrow="0" EndArrow="0" PEN="Black" BRUSH="None" PENLINE="Black" PENTEXT="Black" StrokeText="Black" TextBackGround="None" TextLineColor="None" TextBackGroundShade="100" TextLineShade="100" TextPenShade="100" TextStrokeShade="100" STIL="1" STILLINE="1" WIDTH="1" WIDTHLINE="1" PENSHADE="100" LINESHADE="100" BRUSHSHADE="100" MAGMIN="10" MAGMAX="3200" MAGSTEP="200" CPICT="None" PICTSHADE="100" PICTSCX="1" PICTSCY="1" PSCALE="1" PASPECT="1" EmbeddedPath="0" HalfRes="1" dispX="0.019" dispY="0.019" constrain="15" MINORC="#00ff00" MAJORC="#00ff00" GuideC="#000080" BaseC="#c0c0c0" GuideZ="10" BACKG="0" PAGEC="#ffffff" MARGC="#0000ff" RANDF="0" currentProfile="PostScript">
         <CheckProfile Name="PDF 1.3" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="1" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
         <CheckProfile Name="PDF 1.4" ignoreErrors="0" autoCheck="1" checkGlyphs="1" checkOrphans="1" checkOverflow="1" checkPictures="1" checkResolution="1" checkTransparency="0" minResolution="144" maxResolution="2400" checkAnnotations="0" checkRasterPDF="1" checkForGIF="1" ignoreOffLayers="0" checkOffConflictLayers="0"/>
@@ -47,9 +47,11 @@
         <LAYERS NUMMER="11" LEVEL="2" NAME="Effect : Header_Fade 002" SICHTBAR="1" DRUCKEN="1" EDIT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#00ffff"/>
         <LAYERS NUMMER="12" LEVEL="11" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="0" TRANS="1" BLEND="0" OUTL="0" LAYERC="#a4ff73"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="0" useSpotColors="0" useColor="1" mirrorH="1" mirrorV="0" useICC="0" doGCR="1" doClip="1" setDevParam="0" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="0" colorMarks="0" includePDFMarks="1" PSLevel="3" PDLanguage="3" markOffset="3.74231782764791e-308" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
             <Subset Name="FreeSans Bold"/>
+            <Subset Name="FreeSans Bold Oblique"/>
             <Subset Name="FreeSans Regular"/>
+            <Subset Name="Monaco Regular"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
@@ -194,36 +196,42 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="235.007874015748" WIDTH="381.977086614173" HEIGHT="77.25" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="25" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Bold" ISIZE="25" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 381.977 0 381.977 0 381.977 0 381.977 0 381.977 77.25 381.977 77.25 381.977 77.25 381.977 77.25 0 77.25 0 77.25 0 77.25 0 77.25 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 381.977 0 381.977 0 381.977 0 381.977 0 381.977 77.25 381.977 77.25 381.977 77.25 381.977 77.25 0 77.25 0 77.25 0 77.25 0 77.25 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="5" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="25" CH="Buttons and switches with the Raspberry Pi - part 2"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="25" CH="Buttons and switches with the Raspberry Pi - Part 2"/>
             <trail LINESP="25"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="128.347086614173" YPOS="360.080708665355" WIDTH="538.588346456693" HEIGHT="447.75" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="25.51181102" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 538.588 0 538.588 0 538.588 0 538.588 0 538.588 447.75 538.588 447.75 538.588 447.75 538.588 447.75 0 447.75 0 447.75 0 447.75 0 447.75 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="6" BOOKMARK="0" NEXTITEM="27" BACKITEM="-1">
-            <ITEXT CH="Buttons and switches are a fundamental part of physical computing. This beginners tutorial is designed to teach the basics of physical operation with the Raspberry Pi using a simple momentary switch setup.  In part one in Issue 17, we discussed and built our switch circuit. In this part, we will go through the steps of programming and interacting between the Pi and our components.  The coding part of this tutorial is in Python, a widely used general purpose language.  It is also very readable, so we can break down and explain the function of each line of code.  The purpose of our code will be to read the I/O pin when the switch is pressed!"/>
+            <ITEXT CH="Buttons and switches are a fundamental part of physical computing. This beginners tutorial is designed to teach the basics of physical operation with the Raspberry Pi using a simple momentary switch setup.  In part 1 in Issue 17, we discussed and built our switch circuit. In this part we will go through the steps of programming and interacting between the Raspberry Pi and our components.  The coding part of this tutorial is in Python, a widely used general purpose language.  It is also very readable, so we can break down and explain the function of each line of code.  The purpose of our code will be to read the I/O pin when the switch is pressed!"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Using a switch"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="If you have not already done so, start X by typing startx and load the program IDLE3.   Since we are starting a new project, open up a new window File&gt;&gt;New Window.  Remember that Python is case sensitive and indentation is fundamental.  Indentation, which is used to group statements, will occur automatically as you type commands, so make sure you stick to the suggested layout.  The first line of our code imports the Python library for accessing the GPIO."/>
+            <ITEXT CH="If you have not already done so, start X by typing "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="startx"/>
+            <ITEXT CH=" and load the program "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="IDLE3"/>
+            <ITEXT CH=".   Since we are starting a new project, open up a new window "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="File &gt; New Window"/>
+            <ITEXT CH=".  Remember that Python is case sensitive and indentation is fundamental.  Indentation, which is used to group statements, will occur automatically as you type commands so make sure you stick to the suggested layout.  The first line of our code imports the Python library for accessing the GPIO."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" import RPi.GPIO as GPIO"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Next, we need to set our GPIO pin numbering, as either the BOARD numbering or the BCM numbering. BOARD numbering refers to the physical pin numbering of the headers.  BCM numbering refers to the channel numbers on the Broadcom chip.  Either will do, but I personally prefer BCM numbering.  If you're confused, use a GPIO cheat sheet to clarify which pin is which!"/>
+            <ITEXT CH="Next we need to set our GPIO pin numbering, as either the BOARD numbering or the BCM numbering. BOARD numbering refers to the physical pin numbering of the headers.  BCM numbering refers to the channel numbers on the Broadcom chip.  Either will do, but I personally prefer BCM numbering.  If you're confused, use a GPIO cheat sheet to clarify which pin is which!"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" GPIO.setmode(GPIO.BCM)"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Now you need to define the GPIO pins as either inputs or outputs.  In Part 1, we set BCM Pin 17:BOARD Pin 11 (GPIO P17 [Pin 11]) as our input pin.  So our next line of code tells the GPIO library to set this pin as an input."/>
+            <ITEXT CH="Now you need to define the GPIO pins as either inputs or outputs. In part 1 we set BCM Pin 17 / BOARD Pin 11 (GPIO P17 [Pin 11]) as our input pin. So our next line of code tells the GPIO library to set this pin as an input."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" GPIO.setup(17, GPIO.IN)"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="In part 1 of the tutorial, the input pin was tied high by connecting it to our 3.3V pin.  The purpose of our Python program is to check to see if the input pin has been brought low e.g. when the button has been pressed.  To check the high/low status of the pin we're going to use a True or False statement within an infinite loop.  We need to tie our True statement to the high value of our input pin.  To do so we need to create a new variable called input_value and set it to the current value of GPIO P17 [Pin 11]. "/>
+            <ITEXT CH="In part 1 of the tutorial, the input pin was tied high by connecting it to our 3.3V pin.  The purpose of our Python program is to check to see if the input pin has been brought low e.g. when the button has been pressed.  To check the high/low status of the pin we are going to use a True or False statement within an infinite loop.  We need to tie our True statement to the high value of our input pin.  To do so we need to create a new variable called input_value and set it to the current value of GPIO P17 [Pin 11]. "/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" while True:"/>
@@ -233,7 +241,7 @@
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The next step is to add a condition that will print something when the button is pressed.  For this, we'll use a False condition.   The input_value is False when the button is pressed and the associated signal is pulled low.  This can be checked with a simple Python it statement."/>
+            <ITEXT CH="The next step is to add a condition that will print something when the button is pressed.  For this we will use a False condition.  The input_value is False when the button is pressed and the associated signal is pulled low.  This can be checked with a simple Python it statement."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="   if input_value == False:"/>
@@ -241,7 +249,7 @@
             <ITEXT CH="     print(&quot;Who pressed my button?&quot;)"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="When the button is pressed the program will now display the text: Who pressed my button?, feel free the change this to anything you want."/>
+            <ITEXT CH="When the button is pressed the program will now display the text, &quot;Who pressed my button?&quot;. Feel free to change this to anything you want."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="     while input_value == False:"/>
@@ -249,7 +257,7 @@
             <ITEXT CH="       input_value = GPIO.input(17)"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="The last two lines in the above code are very important, they create a loop that tells Python to keep checking the status of GPIO P17 [Pin 11] until it's no longer low (button released). Without this, the program would loop while the button is still being pressed meaning the message will be printed multiple times on the screen before you release the button.  The final program should look like this in python:"/>
+            <ITEXT CH="The last two lines in the above code are very important, they create a loop that tells Python to keep checking the status of GPIO P17 [Pin 11] until it's no longer low (button released). Without this, the program would loop while the button is still being pressed meaning the message will be printed multiple times on the screen before you release the button.  The final program should look like this in Python:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" import RPi.GPIO as GPIO"/>
@@ -271,43 +279,45 @@
             <ITEXT CH="       input_value = GPIO.input(17)"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="Save the file as button.py. In order to run the program, open a new terminal window on the Pi and type the following command:"/>
+            <ITEXT CH="Save the file as "/>
+            <ITEXT FONT="Monaco Regular" FONTSIZE="11" CH="button.py"/>
+            <ITEXT CH=". In order to run the program open a new terminal window on the Raspberry Pi and type the following command:"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH=" sudo python button.py"/>
             <para PARENT="Code"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="At first nothing will happen, but if you press the button the program will print the defined message.  To exit a running Python script, simply hit CTRL+C on the keyboard to terminate.  If it hasn't worked don't worry. First check the circuit is connected correctly on the breadboard as defined in part 1, then that the jumper wires are connected to the correct pins on the GPIO port.  If it still fails to work, double check each line of the program is correct remembering that python is case-sensitive and checking if indentation is correct. I find that typing the code out by hand will give better results than a simple copy/paste.  This is a deceptively simple program that can be used for many purposes. The same code could be used to read when the pins of separate devices, such as a sensor or external micro-controller, have been pulled high or low."/>
+            <ITEXT CH="At first nothing will happen, but if you press the button the program will print the defined message.  To exit a running Python script, simply press &lt;CTRL&gt;+C on the keyboard to terminate.  If it hasn't worked don't worry. First check the circuit is connected correctly on the breadboard as defined in part 1, then check that the jumper wires are connected to the correct pins on the GPIO port. If it still fails to work, double check each line of the program is correct remembering that Python is case-sensitive and check that the indentation is correct. I find that typing the code out by hand will give better results than a simple copy/paste. This is a deceptively simple program that can be used for many purposes. The same code could be used to read when the pins of separate devices, such as a sensor or external micro-controller, have been pulled high or low."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Adding an LED"/>
             <para PARENT="Body title"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="We'll carry on using the same breadboard as before but will require a couple extra components:"/>
+            <ITEXT CH="We will carry on using the same breadboard as before but we require a couple of extra components:"/>
             <para PARENT="Body text"/>
             <ITEXT CH="  - An LED (light emitting diode), any colour you like."/>
             <para PARENT="Body text"/>
             <ITEXT CH="  - ModMyPi’s Ridiculous Resistor Kit (RK995)"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="    * 330Ω Resistor - (Orange, Orange, Black, Black, Brown)"/>
+            <ITEXT CH="    * 330Ω resistor - (Orange, Orange, Black, Black, Brown)"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="An output pin on the GPIO port can be set to either 0V (low) or 3.3V (high). Our expansion circuit will wire up an LED between an output pin and a ground pin on the Raspberry Pi's GPIO port. We’ll be using Python to trigger our output pin high, causing a current to pass through the LED, lighting it up! We also add a 330Ω Resistor to limit the current that is passed through the LED."/>
+            <ITEXT CH="An output pin on the GPIO port can be set to either 0V (low) or 3.3V (high). Our expansion circuit will wire up an LED between an output pin and a ground pin on the Raspberry Pi's GPIO port. We’ll be using Python to trigger our output pin high, causing a current to pass through the LED, lighting it up! We also add a 330Ω resistor to limit the current that is passed through the LED."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="For this exercise we will connect the LED to GPIO P18 [Pin 12] which will be defined later in our program as an output. We will use the same  ground pin GPIO GND [Pin 6] as before, which is already connected to the Negative rail (-) on our breadboard."/>
+            <ITEXT CH="For this exercise we will connect the LED to GPIO P18 [Pin 12] which will be defined later in our program as an output. We will use the same  ground pin GPIO GND [Pin 6] as before, which is already connected to the negative rail (-) on our breadboard."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="Building the Circuit "/>
             <para PARENT="Body subtitle"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="1. Connect GPIO output to breadboard. Use a green jumper wire to connect GPIO P18 [Pin12] on the Pi to an empty to row on the breadboard"/>
+            <ITEXT CH="1. Connect GPIO output to breadboard. Use a green jumper wire to connect GPIO P18 [Pin12] on the Pi to an empty row on the breadboard."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="2. Add an LED. Insert the long leg (anode) of the LED into the same row as the green jumper wire and insert the shorter leg (cathode) into another empty row on the breadboard. Note: Make sure the LED is inserted the correct way round as it will only allow current to pass through it in one direction. If it's wrong it won't light up!"/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
-            <ITEXT CH="3. Add 330Ω Resistor. Connect the resistor between the cathode of the LED and the Negative rail (-) on the breadboard. This protects our LED from burning out by way of too much current."/>
+            <ITEXT CH="3. Add the 330Ω resistor. Connect the resistor between the cathode of the LED and the negative rail (-) on the breadboard. This protects our LED from burning out by way of too much current."/>
             <para PARENT="Body text"/>
             <para PARENT="Body text"/>
             <ITEXT CH="And that's our circuit built!"/>
@@ -434,7 +444,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="2" PTYPE="4" XPOS="104.36314960626" YPOS="2597.89039368032" WIDTH="36.8503937" HEIGHT="22.67716535" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" ISIZE="20" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="1" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 36.8504 0 36.8504 0 36.8504 0 36.8504 0 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 36.8504 22.6772 0 22.6772 0 22.6772 0 22.6772 0 22.6772 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="7" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="20"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="20" FCOLOR="White" CH="22"/>
             <trail ALIGN="1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>

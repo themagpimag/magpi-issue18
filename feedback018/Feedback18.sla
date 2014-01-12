@@ -38,7 +38,8 @@
         <LAYERS NUMMER="2" LEVEL="2" NAME="text" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#ffff00"/>
         <LAYERS NUMMER="3" LEVEL="3" NAME="Page_number" SICHTBAR="1" DRUCKEN="1" EDIT="1" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
         <Printer firstUse="1" toFile="1" useAltPrintCommand="1" outputSeparations="1" useSpotColors="0" useColor="0" mirrorH="0" mirrorV="0" useICC="1" doGCR="1" doClip="1" setDevParam="1" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="1" includePDFMarks="1" PSLevel="3" PDLanguage="3" markOffset="1.98387909936127e-316" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="1" Quality="2" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="600" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" MirrorH="0" MirrorV="0" Clip="0" RotateDeg="0" PresentMode="0" RecalcPic="1" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="600" Version="14" Intent="1" Intent2="0" SolidP="CineonLog M " ImageP="CineonLog M " PrintP="Fogra27L CMYK Coated Press" InfoString="" BTop="8.50393700787402" BLeft="8.50393700787402" BRight="8.50393700787402" BBottom="8.50393700787402" useDocBleeds="0" cropMarks="1" bleedMarks="1" registrationMarks="1" colorMarks="1" docInfoMarks="1" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="1" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" PageLayout="0" openAction="">
+            <Fonts Name="Century Schoolbook L Bold"/>
             <Subset Name="FreeSans Bold"/>
             <Subset Name="FreeSans Regular"/>
             <Effekte pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
@@ -123,56 +124,54 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="162.070015614427" YPOS="290.767716295137" WIDTH="481.560546875" HEIGHT="416.58154296875" RADRECT="14.17322835" FRTYPE="0" CLIPEDIT="0" PWIDTH="0.9760832327" PCOLOR="None" PCOLOR2="None" TXTFILL="White" COLUMNS="3" COLGAP="17.00787402" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LINESP="12" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" IFONT="FreeSans Regular" ISIZE="10" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 481.561 0 481.561 0 481.561 0 481.561 0 481.561 416.582 481.561 416.582 481.561 416.582 481.561 416.582 0 416.582 0 416.582 0 416.582 0 416.582 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 481.561 0 481.561 0 481.561 0 481.561 0 481.561 416.582 481.561 416.582 481.561 416.582 481.561 416.582 0 416.582 0 416.582 0 416.582 0 416.582 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="2" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="Just received my magazines and binder today. Wow! They are beautiful. This whole project has been great. I had selected the Signature Kit and am I ever glad. The hardware kit came some time ago and the whole thing was top quality. It meant a lot to have those books signed by Liz and Eben. Congratulations for a well executed project."/>
+            <ITEXT CH="Guys I just wanted to drop you a quick note to say thanks for The MagPi. I got my Rasberry Pi a week or so ago and I am slowly making my way through your back catalogue, trying out as much stuff as possible."/>
             <para ALIGN="3"/>
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="Tony Guerich"/>
+            <para ALIGN="3"/>
+            <ITEXT CH="I'm a complete noob to programming/coding, building circuits, etc. and to be honest I'm having the most fun I've had since I used to sit typing lines of BASIC into a BBC Model B way back in the 80's."/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
+            <ITEXT CH="My two girls (age 7 &amp; 9) enjoy the Scratch Patch as they are just being introduced to it at school. Thanks to The MagPi they're already ahead of the game and making little routines to do various tasks and with reasonable confidence. They actually enjoy it when they go wrong and that cat does something unexpected!"/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
+            <ITEXT CH="So all in all, great mag, excellent content and pretty well executed. I did have one observation though, and that would be that sometimes you maybe forget that nuggets like me are reading your content. It would be great if you could sometimes explain WHY you are doing something as well as how to. For instance, I am enjoying your projects in the &quot;In Control&quot; section and currently waiting for some bits to build the Part 3 of the interfacing project for beginners. The layout diagrams, etc. are all brilliant and even I can follow them. It would be nice though if for instance you could explain why we are using Pin 15 and 13 on the GPIO. Would using a different pin give a different result?"/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
+            <ITEXT CH="Keep up the good work though and I look forward to getting through the back issues and waiting for the latest issue to hit my Newstand subscription shelf."/>
+            <para ALIGN="3"/>
+            <ITEXT CH="Many Thanks"/>
+            <para ALIGN="2"/>
+            <ITEXT CH="Mike Burton"/>
+            <para ALIGN="2"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="White" CH="Stepping out on the Noob to Geek journey."/>
             <para ALIGN="2"/>
             <para ALIGN="3"/>
-            <ITEXT CH="Just found @TheMagP1 - loads of RPi info, lessons, resources and projects."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Cyan" FSHADE="100" CH="Great to see an article in the current issue of The MagPi (page 12, Issue 17) on connecting a TMP36 temperature sensor to the Raspberry Pi via an Arduino."/>
             <para ALIGN="3"/>
-            <ITEXT CH="Jim Leese"/>
+            <para ALIGN="3"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Cyan" FSHADE="100" CH="I used a near identical part connected to the analogue port of the BBC Micro as part of my AO-Level Computer Science project in high school in 1988!"/>
+            <para ALIGN="3"/>
+            <para ALIGN="3"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Cyan" FSHADE="100" CH="I inserted the sensor into a plastic tube so that the end of the sensor protruded from the end of the tube and embedded the base of the sensor and wires in epoxy. I was then able to use the sensor to measure the temperature of liquids."/>
+            <para ALIGN="3"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="Cyan" FSHADE="100" CH="Andrew Waite"/>
             <para ALIGN="2"/>
             <para ALIGN="3"/>
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="I love The MagPi, I remember me as a young nerd, I was reading technical magazine full of source code, I learned a lot by copying those sources."/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="I'm slowly working through the copies of The MagPi and am really enjoying it."/>
             <para ALIGN="3"/>
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="Fabrizio"/>
+            <ITEXT FONT="FreeSans Regular" FONTSIZE="10" FCOLOR="White" FSHADE="100" CH="Stuart Smith"/>
             <para ALIGN="2"/>
-            <para ALIGN="2"/>
-            <ITEXT CH="Just received my binder and mags - they look great. Thanks for all the effort you have put into this. And you just know that we all want Volume 2 now don't you :-)"/>
             <para ALIGN="3"/>
-            <ITEXT CH="Mark Pearson "/>
+            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="For ‘Claire’ on the back cover of the  October issue of The MagPi. http://electronicsclub.info/  will prove a good starting place. "/>
+            <para ALIGN="3"/>
+            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="Iain Johnstone"/>
             <para ALIGN="2"/>
             <para/>
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="I am enjoying the Raspberry Pi and am trying to learn some programming.  I want to write my own program with some graphics.  The MagPi is great.  It has helped me with my Raspberry Pi experience."/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Did you enjoy issue 18 of The MagPi? Would you like to help us create more issues? We are desperately seeking layout and proofreading volunteers. If you think you could help please contact:"/>
             <para ALIGN="3"/>
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="ab"/>
-            <para ALIGN="2"/>
-            <para/>
-            <ITEXT CH="First I wanted to congratulate you and the staff for putting together a very well done publication.  I've downloaded each one and I'm in the process of reading them along side my Pi and I do try the programs that you have.  All in all, a great job and you've made it easy for anyone to learn about the Raspberry Pi."/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="editor@themagpi.com. "/>
             <para ALIGN="3"/>
-            <para ALIGN="3"/>
-            <ITEXT CH="I do have one comment though.  I still belong to the old school and I like to print each issue out and read it and make notes in the margins.  I like the colours chosen, but would ask that you reduce the amount of solid colours especially the black bars at the top and bottom of each page.  Having to print them only uses up more ink which become an expensive process for each issue."/>
-            <para ALIGN="3"/>
-            <ITEXT CH="Richard"/>
-            <para ALIGN="2"/>
-            <para ALIGN="2"/>
-            <ITEXT CH="[ed:The PDF is a little expensive on printer ink, so we have made hard copies up to issue 9 available as bound magazines, these are available from our licensed retailers who are listed on our website. We will be printing issues 10+, but there is a large workload involved in getting them to a stage where they can be sent to the printers, so we are slightly behind hand.]"/>
-            <para ALIGN="3"/>
-            <para ALIGN="3"/>
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="288 pages of goodness just arrived! The Mags look awesome! Love the binder and stickers! Its been a bit of a wait but its definitely been worth it! The whole bundle is fantastic and the magazine quality is perfect, they look and feel like a premium magazine you would buy from a newsagents. "/>
-            <para ALIGN="3"/>
-            <para ALIGN="3"/>
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="You can see right away the hard work that has gone into these and it is very much appreciated."/>
-            <para ALIGN="3"/>
-            <para ALIGN="3"/>
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="THANK YOU!! to the whole MagPi team!!"/>
-            <para ALIGN="3"/>
-            <para ALIGN="3"/>
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="Time to crack on and start reading!"/>
-            <para ALIGN="3"/>
-            <ITEXT FCOLOR="Cyan" FSHADE="100" CH="Nial Pearce"/>
-            <ITEXT CH=" "/>
-            <para ALIGN="2"/>
+            <ITEXT FONT="FreeSans Bold" FONTSIZE="11" CH="Thank you."/>
+            <trail ALIGN="3"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
     </DOCUMENT>
